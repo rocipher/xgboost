@@ -1,0 +1,1005 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+API_BEGIN	c_api/c_api_error.h	14;"	d
+API_END	c_api/c_api_error.h	17;"	d
+API_END_HANDLE_ERROR	c_api/c_api_error.h	23;"	d
+Add	tree/param.h	/^  inline void Add(bst_gpair p) {$/;"	f	struct:xgboost::tree::GradStats
+Add	tree/param.h	/^  inline void Add(const GradStats& b) {$/;"	f	struct:xgboost::tree::GradStats
+Add	tree/param.h	/^  inline void Add(const std::vector<bst_gpair>& gpair,$/;"	f	struct:xgboost::tree::GradStats
+Add	tree/param.h	/^  inline void Add(double grad, double hess) {$/;"	f	struct:xgboost::tree::GradStats
+Add	tree/updater_histmaker.cc	/^    inline void Add(bst_float fv,$/;"	f	struct:xgboost::tree::CQHistMaker::HistEntry
+Add	tree/updater_histmaker.cc	/^    inline void Add(bst_float fv,$/;"	f	struct:xgboost::tree::HistMaker::HistUnit
+Add	tree/updater_skmaker.cc	/^    inline void Add(const SKStats &b) {$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+Add	tree/updater_skmaker.cc	/^    inline void Add(const std::vector<bst_gpair> &gpair,$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+AddBudget	common/group_data.h	/^  inline void AddBudget(size_t key, int threadid, SizeType nelem = 1) {$/;"	f	struct:xgboost::common::ParallelGroupBuilder
+AddStats	tree/updater_refresh.cc	/^  inline static void AddStats(const RegTree &tree,$/;"	f	class:xgboost::tree::TreeRefresher	file:
+Aggregate	tree/updater_histmaker.cc	/^    inline void Aggregate() {$/;"	f	struct:xgboost::tree::HistMaker::ThreadWSpace
+AllowLazyCheckPoint	learner.cc	/^bool Learner::AllowLazyCheckPoint() const {$/;"	f	class:xgboost::Learner
+AtEnd	common/base64.h	/^  inline bool AtEnd(void) const {$/;"	f	class:xgboost::common::StreamBufferReader
+Base64InStream	common/base64.h	/^  explicit Base64InStream(dmlc::Stream *fs) : reader_(256) {$/;"	f	class:xgboost::common::Base64InStream
+Base64InStream	common/base64.h	/^class Base64InStream: public dmlc::Stream {$/;"	c	namespace:xgboost::common
+Base64OutStream	common/base64.h	/^  explicit Base64OutStream(dmlc::Stream *fp) : fp(fp) {$/;"	f	class:xgboost::common::Base64OutStream
+Base64OutStream	common/base64.h	/^class Base64OutStream: public dmlc::Stream {$/;"	c	namespace:xgboost::common
+BaseMaker	tree/updater_basemaker-inl.h	/^class BaseMaker: public TreeUpdater {$/;"	c	namespace:xgboost::tree
+BeforeFirst	data/simple_csr_source.cc	/^void SimpleCSRSource::BeforeFirst() {$/;"	f	class:xgboost::data::SimpleCSRSource
+BeforeFirst	data/sparse_page_source.cc	/^void SparsePageSource::BeforeFirst() {$/;"	f	class:xgboost::data::SparsePageSource
+BitMap	common/bitmap.h	/^struct BitMap {$/;"	s	namespace:xgboost::common
+BoostNewTrees	gbm/gbtree.cc	/^  BoostNewTrees(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::gbm::GBTree
+Booster	c_api/c_api.cc	/^  explicit Booster(const std::vector<DMatrix*>& cache_mats)$/;"	f	class:xgboost::Booster
+Booster	c_api/c_api.cc	/^class Booster {$/;"	c	namespace:xgboost	file:
+BufferOffset	gbm/gbtree.cc	/^  inline int64_t BufferOffset(int64_t buffer_index, int bst_group) const {$/;"	f	class:xgboost::gbm::GBTree
+BuildSketch	tree/updater_skmaker.cc	/^  inline void BuildSketch(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::SketchMaker	file:
+Builder	tree/updater_colmaker.cc	/^    explicit Builder(const TrainParam &param)$/;"	f	struct:xgboost::tree::DistColMaker::Builder
+Builder	tree/updater_colmaker.cc	/^    explicit Builder(const TrainParam& param) : param(param) {}$/;"	f	struct:xgboost::tree::ColMaker::Builder
+Builder	tree/updater_colmaker.cc	/^  struct Builder : public ColMaker<TStats>::Builder {$/;"	s	class:xgboost::tree::DistColMaker	file:
+Builder	tree/updater_colmaker.cc	/^  struct Builder {$/;"	s	class:xgboost::tree::ColMaker	file:
+CLIDump2Text	cli_main.cc	/^void CLIDump2Text(const CLIParam& param) {$/;"	f	namespace:xgboost
+CLIParam	cli_main.cc	/^struct CLIParam : public dmlc::Parameter<CLIParam> {$/;"	s	namespace:xgboost	file:
+CLIPredict	cli_main.cc	/^void CLIPredict(const CLIParam& param) {$/;"	f	namespace:xgboost
+CLIRunTask	cli_main.cc	/^int CLIRunTask(int argc, char *argv[]) {$/;"	f	namespace:xgboost
+CLITask	cli_main.cc	/^enum CLITask {$/;"	g	namespace:xgboost	file:
+CLITrain	cli_main.cc	/^void CLITrain(const CLIParam& param) {$/;"	f	namespace:xgboost
+CQHistMaker	tree/updater_histmaker.cc	/^class CQHistMaker: public HistMaker<TStats> {$/;"	c	namespace:xgboost::tree	file:
+CacheEntry	learner.cc	/^    CacheEntry(const DMatrix* mat, size_t buffer_offset, size_t num_row)$/;"	f	struct:xgboost::LearnerImpl::CacheEntry
+CacheEntry	learner.cc	/^  struct CacheEntry {$/;"	s	class:xgboost::LearnerImpl	file:
+CacheExist	data/sparse_page_source.cc	/^bool SparsePageSource::CacheExist(const std::string& cache_prefix) {$/;"	f	class:xgboost::data::SparsePageSource
+CalcDCG	metric/rank_metric.cc	/^  inline float CalcDCG(const std::vector<std::pair<float, unsigned> > &rec) const {$/;"	f	struct:xgboost::metric::EvalNDCG
+CalcDCG	objective/rank_obj.cc	/^  inline static float CalcDCG(const std::vector<float> &labels) {$/;"	f	class:xgboost::obj::LambdaRankObjNDCG
+CalcDelta	gbm/gblinear.cc	/^  inline double CalcDelta(double sum_grad, double sum_hess, double w) const {$/;"	f	struct:xgboost::gbm::GBLinearTrainParam
+CalcDeltaBias	gbm/gblinear.cc	/^  inline double CalcDeltaBias(double sum_grad, double sum_hess, double w) const {$/;"	f	struct:xgboost::gbm::GBLinearTrainParam
+CalcGain	tree/param.h	/^  inline double CalcGain(const TrainParam& param) const {$/;"	f	struct:xgboost::tree::GradStats
+CalcGain	tree/param.h	/^  inline double CalcGain(double sum_grad, double sum_hess) const {$/;"	f	struct:xgboost::tree::TrainParam
+CalcGain	tree/param.h	/^  inline double CalcGain(double sum_grad, double sum_hess,$/;"	f	struct:xgboost::tree::TrainParam
+CalcGain	tree/updater_skmaker.cc	/^    inline double CalcGain(const TrainParam &param) const {$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+CalcMemCost	common/quantile.h	/^    inline static size_t CalcMemCost(size_t nentry) {$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+CalcWeight	tree/param.h	/^  inline double CalcWeight(const TrainParam& param) const {$/;"	f	struct:xgboost::tree::GradStats
+CalcWeight	tree/param.h	/^  inline double CalcWeight(double sum_grad, double sum_hess) const {$/;"	f	struct:xgboost::tree::TrainParam
+CalcWeight	tree/updater_skmaker.cc	/^    inline double CalcWeight(const TrainParam &param) const {$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+Check	common/quantile.h	/^  inline bool Check(const char *msg) const {$/;"	f	struct:xgboost::common::WQSummary
+CheckInfo	tree/param.h	/^  inline static void CheckInfo(const MetaInfo& info) {$/;"	f	struct:xgboost::tree::GradStats
+CheckLabel	objective/regression_obj.cc	/^  static bool CheckLabel(float x) { return true; }$/;"	f	struct:xgboost::obj::LinearSquareLoss
+CheckLabel	objective/regression_obj.cc	/^  static bool CheckLabel(float x) { return x >= 0.0f && x <= 1.0f; }$/;"	f	struct:xgboost::obj::LogisticRegression
+CheckLarge	common/quantile.h	/^  inline static bool CheckLarge(const Entry &e, RType chunk) {$/;"	f	struct:xgboost::common::WXQSummary
+CheckNAN	common/math.h	/^inline bool CheckNAN(T v) {$/;"	f	namespace:xgboost::common
+CheckValid	common/quantile.h	/^    inline void CheckValid(RType eps = 0) const {$/;"	f	struct:xgboost::common::WQSummary::Entry
+CheckValid	common/quantile.h	/^  inline void CheckValid(RType eps) const {$/;"	f	class:xgboost::common::QuantileSketchTemplate
+CheckValid	common/quantile.h	/^  inline void CheckValid(RType eps) const {$/;"	f	struct:xgboost::common::GKSummary
+CheckValid	common/quantile.h	/^  inline void CheckValid(RType eps) const {$/;"	f	struct:xgboost::common::WQSummary
+Clear	common/bitmap.h	/^  inline void Clear() {$/;"	f	struct:xgboost::common::BitMap
+Clear	data/data.cc	/^void MetaInfo::Clear() {$/;"	f	class:xgboost::MetaInfo
+Clear	data/simple_csr_source.cc	/^void SimpleCSRSource::Clear() {$/;"	f	class:xgboost::data::SimpleCSRSource
+Clear	data/sparse_batch_page.h	/^  inline void Clear(void) {$/;"	f	class:xgboost::data::SparsePage
+Clear	tree/param.h	/^  inline void Clear() {$/;"	f	struct:xgboost::tree::GradStats
+Clear	tree/updater_histmaker.cc	/^    inline void Clear() {$/;"	f	struct:xgboost::tree::HistMaker::ThreadWSpace
+Clear	tree/updater_skmaker.cc	/^    inline void Clear(void) {$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+CmpFirst	common/math.h	/^inline static bool CmpFirst(const std::pair<float, unsigned> &a,$/;"	f	namespace:xgboost::common
+CmpLabel	objective/rank_obj.cc	/^    inline static bool CmpLabel(const ListEntry &a, const ListEntry &b) {$/;"	f	struct:xgboost::obj::LambdaRankObj::ListEntry
+CmpPred	objective/rank_obj.cc	/^    inline static bool CmpPred(const ListEntry &a, const ListEntry &b) {$/;"	f	struct:xgboost::obj::LambdaRankObj::ListEntry
+CmpSecond	common/math.h	/^inline static bool CmpSecond(const std::pair<float, unsigned> &a,$/;"	f	namespace:xgboost::common
+ColBatchIter	data/simple_dmatrix.h	/^    ColBatchIter() : data_ptr_(0) {}$/;"	f	struct:xgboost::data::SimpleDMatrix::ColBatchIter
+ColBatchIter	data/simple_dmatrix.h	/^  struct ColBatchIter: dmlc::DataIter<ColBatch> {$/;"	s	class:xgboost::data::SimpleDMatrix
+ColIterator	data/simple_dmatrix.cc	/^dmlc::DataIter<ColBatch>* SimpleDMatrix::ColIterator() {$/;"	f	class:xgboost::data::SimpleDMatrix
+ColIterator	data/simple_dmatrix.cc	/^dmlc::DataIter<ColBatch>* SimpleDMatrix::ColIterator(const std::vector<bst_uint>&fset) {$/;"	f	class:xgboost::data::SimpleDMatrix
+ColIterator	data/sparse_page_dmatrix.cc	/^ColIterator(const std::vector<bst_uint>& fset) {$/;"	f	class:xgboost::data::SparsePageDMatrix
+ColIterator	data/sparse_page_dmatrix.cc	/^dmlc::DataIter<ColBatch>* SparsePageDMatrix::ColIterator() {$/;"	f	class:xgboost::data::SparsePageDMatrix
+ColMaker	tree/updater_colmaker.cc	/^class ColMaker: public TreeUpdater {$/;"	c	namespace:xgboost::tree	file:
+ColPageIter	data/sparse_page_dmatrix.cc	/^SparsePageDMatrix::ColPageIter::ColPageIter(std::unique_ptr<dmlc::SeekStream>&& fi)$/;"	f	class:xgboost::data::SparsePageDMatrix::ColPageIter
+ColPageIter	data/sparse_page_dmatrix.h	/^  class ColPageIter : public dmlc::DataIter<ColBatch> {$/;"	c	class:xgboost::data::SparsePageDMatrix
+CommitModel	gbm/gbtree.cc	/^  inline void CommitModel(std::vector<std::unique_ptr<RegTree> >&& new_trees,$/;"	f	class:xgboost::gbm::GBTree
+ConfigIterator	common/config.h	/^  explicit ConfigIterator(const char *fname) : ConfigStreamReader(fi) {$/;"	f	class:xgboost::common::ConfigIterator
+ConfigIterator	common/config.h	/^class ConfigIterator: public ConfigStreamReader {$/;"	c	namespace:xgboost::common
+ConfigReaderBase	common/config.h	/^class ConfigReaderBase {$/;"	c	namespace:xgboost::common
+ConfigStreamReader	common/config.h	/^  explicit ConfigStreamReader(std::istream &fin) : fin(fin) {}$/;"	f	class:xgboost::common::ConfigStreamReader
+ConfigStreamReader	common/config.h	/^class ConfigStreamReader: public ConfigReaderBase {$/;"	c	namespace:xgboost::common
+Configure	cli_main.cc	/^  inline void Configure(const std::vector<std::pair<std::string, std::string> >& cfg) {$/;"	f	struct:xgboost::CLIParam
+CopyFrom	common/quantile.h	/^  inline void CopyFrom(const GKSummary &src) {$/;"	f	struct:xgboost::common::GKSummary
+CopyFrom	common/quantile.h	/^  inline void CopyFrom(const WQSummary &src) {$/;"	f	struct:xgboost::common::WQSummary
+CopyFrom	data/simple_csr_source.cc	/^void SimpleCSRSource::CopyFrom(DMatrix* src) {$/;"	f	class:xgboost::data::SimpleCSRSource
+CopyFrom	data/simple_csr_source.cc	/^void SimpleCSRSource::CopyFrom(dmlc::Parser<uint32_t>* parser) {$/;"	f	class:xgboost::data::SimpleCSRSource
+Create	data/data.cc	/^DMatrix* DMatrix::Create(dmlc::Parser<uint32_t>* parser,$/;"	f	class:xgboost::DMatrix
+Create	data/data.cc	/^DMatrix* DMatrix::Create(std::unique_ptr<DataSource>&& source,$/;"	f	class:xgboost::DMatrix
+Create	data/data.cc	/^SparsePage::Format* SparsePage::Format::Create(const std::string& name) {$/;"	f	class:xgboost::data::SparsePage::Format
+Create	data/sparse_page_source.cc	/^void SparsePageSource::Create(DMatrix* src,$/;"	f	class:xgboost::data::SparsePageSource
+Create	data/sparse_page_source.cc	/^void SparsePageSource::Create(dmlc::Parser<uint32_t>* src,$/;"	f	class:xgboost::data::SparsePageSource
+Create	gbm/gbm.cc	/^GradientBooster* GradientBooster::Create(const std::string& name) {$/;"	f	class:xgboost::GradientBooster
+Create	learner.cc	/^Learner* Learner::Create(const std::vector<DMatrix*>& cache_data) {$/;"	f	class:xgboost::Learner
+Create	metric/metric.cc	/^Metric* Metric::Create(const std::string& name) {$/;"	f	class:xgboost::Metric
+Create	objective/objective.cc	/^ObjFunction* ObjFunction::Create(const std::string& name) {$/;"	f	class:xgboost::ObjFunction
+Create	tree/tree_updater.cc	/^TreeUpdater* TreeUpdater::Create(const std::string& name) {$/;"	f	class:xgboost::TreeUpdater
+CustomGlobalRandomEngine	common/random.h	/^class CustomGlobalRandomEngine {$/;"	c	namespace:xgboost::common
+DISPATCH_CONST_PTR	data/data.cc	92;"	d	file:
+DMLC_DECLARE_PARAMETER	cli_main.cc	/^  DMLC_DECLARE_PARAMETER(CLIParam) {$/;"	f	struct:xgboost::CLIParam
+DMLC_DECLARE_PARAMETER	gbm/gblinear.cc	/^  DMLC_DECLARE_PARAMETER(GBLinearModelParam) {$/;"	f	struct:xgboost::gbm::GBLinearModelParam
+DMLC_DECLARE_PARAMETER	gbm/gblinear.cc	/^  DMLC_DECLARE_PARAMETER(GBLinearTrainParam) {$/;"	f	struct:xgboost::gbm::GBLinearTrainParam
+DMLC_DECLARE_PARAMETER	gbm/gbtree.cc	/^  DMLC_DECLARE_PARAMETER(GBTreeModelParam) {$/;"	f	struct:xgboost::gbm::GBTreeModelParam
+DMLC_DECLARE_PARAMETER	gbm/gbtree.cc	/^  DMLC_DECLARE_PARAMETER(GBTreeTrainParam) {$/;"	f	struct:xgboost::gbm::GBTreeTrainParam
+DMLC_DECLARE_PARAMETER	learner.cc	/^  DMLC_DECLARE_PARAMETER(LearnerModelParam) {$/;"	f	struct:xgboost::LearnerModelParam
+DMLC_DECLARE_PARAMETER	learner.cc	/^  DMLC_DECLARE_PARAMETER(LearnerTrainParam) {$/;"	f	struct:xgboost::LearnerTrainParam
+DMLC_DECLARE_PARAMETER	objective/multiclass_obj.cc	/^  DMLC_DECLARE_PARAMETER(SoftmaxMultiClassParam) {$/;"	f	struct:xgboost::obj::SoftmaxMultiClassParam
+DMLC_DECLARE_PARAMETER	objective/rank_obj.cc	/^  DMLC_DECLARE_PARAMETER(LambdaRankParam) {$/;"	f	struct:xgboost::obj::LambdaRankParam
+DMLC_DECLARE_PARAMETER	objective/regression_obj.cc	/^  DMLC_DECLARE_PARAMETER(PoissonRegressionParam) {$/;"	f	struct:xgboost::obj::PoissonRegressionParam
+DMLC_DECLARE_PARAMETER	objective/regression_obj.cc	/^  DMLC_DECLARE_PARAMETER(RegLossParam) {$/;"	f	struct:xgboost::obj::RegLossParam
+DMLC_DECLARE_PARAMETER	tree/param.h	/^  DMLC_DECLARE_PARAMETER(TrainParam) {$/;"	f	struct:xgboost::tree::TrainParam
+DecideFormat	data/data.cc	/^SparsePage::Format::DecideFormat(const std::string& cache_prefix) {$/;"	f	class:xgboost::data::SparsePage::Format
+DecodePosition	tree/updater_basemaker-inl.h	/^  inline int DecodePosition(bst_uint ridx) const {$/;"	f	class:xgboost::tree::BaseMaker
+DecodePosition	tree/updater_colmaker.cc	/^    inline int DecodePosition(bst_uint ridx) const {$/;"	f	struct:xgboost::tree::ColMaker::Builder
+DecodeTable	common/base64.h	/^const char DecodeTable[] = {$/;"	m	namespace:xgboost::common::base64
+DefaultEvalMetric	objective/regression_obj.cc	/^  static const char* DefaultEvalMetric() { return "auc"; }$/;"	f	struct:xgboost::obj::LogisticRaw
+DefaultEvalMetric	objective/regression_obj.cc	/^  static const char* DefaultEvalMetric() { return "error"; }$/;"	f	struct:xgboost::obj::LogisticClassification
+DefaultEvalMetric	objective/regression_obj.cc	/^  static const char* DefaultEvalMetric() { return "rmse"; }$/;"	f	struct:xgboost::obj::LinearSquareLoss
+DefaultEvalMetric	objective/regression_obj.cc	/^  static const char* DefaultEvalMetric() { return "rmse"; }$/;"	f	struct:xgboost::obj::LogisticRegression
+DistColMaker	tree/updater_colmaker.cc	/^  DistColMaker() : builder(param) {$/;"	f	class:xgboost::tree::DistColMaker
+DistColMaker	tree/updater_colmaker.cc	/^class DistColMaker : public ColMaker<TStats> {$/;"	c	namespace:xgboost::tree	file:
+DoBoost	gbm/gblinear.cc	/^  virtual void DoBoost(DMatrix *p_fmat,$/;"	f	class:xgboost::gbm::GBLinear
+DoPrune	tree/updater_prune.cc	/^  inline void DoPrune(RegTree &tree) { \/\/ NOLINT(*)$/;"	f	class:xgboost::tree::TreePruner	file:
+Dump2Text	learner.cc	/^Learner::Dump2Text(const FeatureMap& fmap, int option) const {$/;"	f	class:xgboost::Learner
+Dump2Text	tree/tree_model.cc	/^std::string RegTree::Dump2Text(const FeatureMap& fmap, bool with_stats) const {$/;"	f	class:xgboost::RegTree
+DumpRegTree2Text	tree/tree_model.cc	/^void DumpRegTree2Text(std::stringstream& fo,  \/\/ NOLINT(*)$/;"	f	namespace:xgboost
+Empty	tree/param.h	/^  inline bool Empty() const {$/;"	f	struct:xgboost::tree::GradStats
+EncodeTable	common/base64.h	/^static const char EncodeTable[] =$/;"	m	namespace:xgboost::common::base64
+Entry	common/quantile.h	/^    Entry() {}$/;"	f	struct:xgboost::common::GKSummary::Entry
+Entry	common/quantile.h	/^    Entry() {}$/;"	f	struct:xgboost::common::WQSummary::Entry
+Entry	common/quantile.h	/^    Entry(RType rmin, RType rmax, DType value)$/;"	f	struct:xgboost::common::GKSummary::Entry
+Entry	common/quantile.h	/^    Entry(RType rmin, RType rmax, RType wmin, DType value)$/;"	f	struct:xgboost::common::WQSummary::Entry
+Entry	common/quantile.h	/^  struct Entry {$/;"	s	struct:xgboost::common::GKSummary
+Entry	common/quantile.h	/^  struct Entry {$/;"	s	struct:xgboost::common::WQSummary
+Entry	common/quantile.h	/^  typedef typename Summary::Entry Entry;$/;"	t	class:xgboost::common::QuantileSketchTemplate
+Entry	common/quantile.h	/^  typedef typename WQSummary<DType, RType>::Entry Entry;$/;"	t	struct:xgboost::common::WXQSummary
+EnumerateSplit	tree/updater_colmaker.cc	/^    inline void EnumerateSplit(const ColBatch::Entry *begin,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+EnumerateSplit	tree/updater_histmaker.cc	/^  inline void EnumerateSplit(const HistUnit &hist,$/;"	f	class:xgboost::tree::HistMaker	file:
+EnumerateSplit	tree/updater_skmaker.cc	/^  inline void EnumerateSplit(const WXQSketch::Summary &pos_grad,$/;"	f	class:xgboost::tree::SketchMaker	file:
+EnumerateSplitCacheOpt	tree/updater_colmaker.cc	/^    inline void EnumerateSplitCacheOpt(const ColBatch::Entry *begin,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+EvalAMS	metric/rank_metric.cc	/^  explicit EvalAMS(const char* param) {$/;"	f	struct:xgboost::metric::EvalAMS
+EvalAMS	metric/rank_metric.cc	/^struct EvalAMS : public Metric {$/;"	s	namespace:xgboost::metric	file:
+EvalAuc	metric/rank_metric.cc	/^struct EvalAuc : public Metric {$/;"	s	namespace:xgboost::metric	file:
+EvalEWiseBase	metric/elementwise_metric.cc	/^struct EvalEWiseBase : public Metric {$/;"	s	namespace:xgboost::metric	file:
+EvalError	metric/elementwise_metric.cc	/^struct EvalError : public EvalEWiseBase<EvalError> {$/;"	s	namespace:xgboost::metric	file:
+EvalLogLoss	metric/elementwise_metric.cc	/^struct EvalLogLoss : public EvalEWiseBase<EvalLogLoss> {$/;"	s	namespace:xgboost::metric	file:
+EvalMAP	metric/rank_metric.cc	/^  explicit EvalMAP(const char *name) : EvalRankList("map", name) {}$/;"	f	struct:xgboost::metric::EvalMAP
+EvalMAP	metric/rank_metric.cc	/^struct EvalMAP : public EvalRankList {$/;"	s	namespace:xgboost::metric	file:
+EvalMClassBase	metric/multiclass_metric.cc	/^struct EvalMClassBase : public Metric {$/;"	s	namespace:xgboost::metric	file:
+EvalMatchError	metric/multiclass_metric.cc	/^struct EvalMatchError : public EvalMClassBase<EvalMatchError> {$/;"	s	namespace:xgboost::metric	file:
+EvalMetric	metric/rank_metric.cc	/^  virtual float EvalMetric(std::vector< std::pair<float, unsigned> > &rec) const {$/;"	f	struct:xgboost::metric::EvalMAP
+EvalMetric	metric/rank_metric.cc	/^  virtual float EvalMetric(std::vector< std::pair<float, unsigned> > &rec) const {$/;"	f	struct:xgboost::metric::EvalPrecision
+EvalMetric	metric/rank_metric.cc	/^  virtual float EvalMetric(std::vector<std::pair<float, unsigned> > &rec) const { \/\/ NOLINT(*)$/;"	f	struct:xgboost::metric::EvalNDCG
+EvalMultiLogLoss	metric/multiclass_metric.cc	/^struct EvalMultiLogLoss : public EvalMClassBase<EvalMultiLogLoss> {$/;"	s	namespace:xgboost::metric	file:
+EvalNDCG	metric/rank_metric.cc	/^  explicit EvalNDCG(const char *name) : EvalRankList("ndcg", name) {}$/;"	f	struct:xgboost::metric::EvalNDCG
+EvalNDCG	metric/rank_metric.cc	/^struct EvalNDCG : public EvalRankList{$/;"	s	namespace:xgboost::metric	file:
+EvalPoissionNegLogLik	metric/elementwise_metric.cc	/^struct EvalPoissionNegLogLik : public EvalEWiseBase<EvalPoissionNegLogLik> {$/;"	s	namespace:xgboost::metric	file:
+EvalPrecision	metric/rank_metric.cc	/^  explicit EvalPrecision(const char *name) : EvalRankList("pre", name) {}$/;"	f	struct:xgboost::metric::EvalPrecision
+EvalPrecision	metric/rank_metric.cc	/^struct EvalPrecision : public EvalRankList{$/;"	s	namespace:xgboost::metric	file:
+EvalRMSE	metric/elementwise_metric.cc	/^struct EvalRMSE : public EvalEWiseBase<EvalRMSE> {$/;"	s	namespace:xgboost::metric	file:
+EvalRankList	metric/rank_metric.cc	/^  explicit EvalRankList(const char* name, const char* param) {$/;"	f	struct:xgboost::metric::EvalRankList
+EvalRankList	metric/rank_metric.cc	/^struct EvalRankList : public Metric {$/;"	s	namespace:xgboost::metric	file:
+EvalRow	metric/elementwise_metric.cc	/^  inline static float EvalRow(float label, float pred) {$/;"	f	struct:xgboost::metric::EvalError
+EvalRow	metric/elementwise_metric.cc	/^  inline static float EvalRow(float label, float pred) {$/;"	f	struct:xgboost::metric::EvalRMSE
+EvalRow	metric/elementwise_metric.cc	/^  inline static float EvalRow(float y, float py) {$/;"	f	struct:xgboost::metric::EvalLogLoss
+EvalRow	metric/elementwise_metric.cc	/^  inline static float EvalRow(float y, float py) {$/;"	f	struct:xgboost::metric::EvalPoissionNegLogLik
+EvalRow	metric/multiclass_metric.cc	/^  inline static float EvalRow(int label,$/;"	f	struct:xgboost::metric::EvalMatchError
+EvalRow	metric/multiclass_metric.cc	/^  inline static float EvalRow(int label,$/;"	f	struct:xgboost::metric::EvalMultiLogLoss
+Evaluate	learner.cc	/^  std::pair<std::string, float> Evaluate(DMatrix* data, std::string metric) {$/;"	f	class:xgboost::LearnerImpl
+FMetaHelper	tree/updater_basemaker-inl.h	/^  struct FMetaHelper {$/;"	s	class:xgboost::tree::BaseMaker
+Finalize	tree/updater_basemaker-inl.h	/^    inline void Finalize(unsigned max_size) {$/;"	f	struct:xgboost::tree::BaseMaker::SketchEntry
+FindBufferOffset	learner.cc	/^  inline int64_t FindBufferOffset(const DMatrix* mat) const {$/;"	f	class:xgboost::LearnerImpl	file:
+FindMaxIndex	common/math.h	/^inline Iterator FindMaxIndex(Iterator begin, Iterator end) {$/;"	f	namespace:xgboost::common
+FindSplit	tree/updater_colmaker.cc	/^    inline void FindSplit(int depth,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+FindSplit	tree/updater_histmaker.cc	/^  inline void FindSplit(int depth,$/;"	f	class:xgboost::tree::HistMaker	file:
+FindSplit	tree/updater_skmaker.cc	/^  inline void FindSplit(int depth,$/;"	f	class:xgboost::tree::SketchMaker	file:
+Finish	common/base64.h	/^  inline void Finish(char endch = EOF) {$/;"	f	class:xgboost::common::Base64OutStream
+FirstOrderGradient	objective/regression_obj.cc	/^  static float FirstOrderGradient(float predt, float label) { return predt - label; }$/;"	f	struct:xgboost::obj::LinearSquareLoss
+FirstOrderGradient	objective/regression_obj.cc	/^  static float FirstOrderGradient(float predt, float label) { return predt - label; }$/;"	f	struct:xgboost::obj::LogisticRegression
+FirstOrderGradient	objective/regression_obj.cc	/^  static float FirstOrderGradient(float predt, float label) {$/;"	f	struct:xgboost::obj::LogisticRaw
+FixError	common/quantile.h	/^  inline void FixError(RType *err_mingap,$/;"	f	struct:xgboost::common::WQSummary
+Flush	common/base64.h	/^  inline void Flush(void) {$/;"	f	class:xgboost::common::Base64OutStream
+Format	data/sparse_batch_page.h	/^class SparsePage::Format {$/;"	c	class:xgboost::data::SparsePage
+GBLinear	gbm/gblinear.cc	/^class GBLinear : public GradientBooster {$/;"	c	namespace:xgboost::gbm	file:
+GBLinearModelParam	gbm/gblinear.cc	/^  GBLinearModelParam() {$/;"	f	struct:xgboost::gbm::GBLinearModelParam
+GBLinearModelParam	gbm/gblinear.cc	/^struct GBLinearModelParam :public dmlc::Parameter<GBLinearModelParam> {$/;"	s	namespace:xgboost::gbm	file:
+GBLinearTrainParam	gbm/gblinear.cc	/^struct GBLinearTrainParam : public dmlc::Parameter<GBLinearTrainParam> {$/;"	s	namespace:xgboost::gbm	file:
+GBTree	gbm/gbtree.cc	/^  GBTree() : num_pbuffer(0) {}$/;"	f	class:xgboost::gbm::GBTree
+GBTree	gbm/gbtree.cc	/^class GBTree : public GradientBooster {$/;"	c	namespace:xgboost::gbm	file:
+GBTreeModelParam	gbm/gbtree.cc	/^  GBTreeModelParam() {$/;"	f	struct:xgboost::gbm::GBTreeModelParam
+GBTreeModelParam	gbm/gbtree.cc	/^struct GBTreeModelParam : public dmlc::Parameter<GBTreeModelParam> {$/;"	s	namespace:xgboost::gbm	file:
+GBTreeTrainParam	gbm/gbtree.cc	/^struct GBTreeTrainParam : public dmlc::Parameter<GBTreeTrainParam> {$/;"	s	namespace:xgboost::gbm	file:
+GKQuantileSketch	common/quantile.h	/^class GKQuantileSketch :$/;"	c	namespace:xgboost::common
+GKSummary	common/quantile.h	/^  GKSummary(Entry *data, size_t size)$/;"	f	struct:xgboost::common::GKSummary
+GKSummary	common/quantile.h	/^struct GKSummary {$/;"	s	namespace:xgboost::common
+Get	common/bitmap.h	/^  inline bool Get(size_t i) const {$/;"	f	struct:xgboost::common::BitMap
+Get	common/thread_local.h	/^  static T* Get() {$/;"	f	class:xgboost::common::ThreadLocalStore
+GetChar	common/base64.h	/^  inline char GetChar(void) {$/;"	f	class:xgboost::common::StreamBufferReader
+GetChar	common/config.h	/^  virtual char GetChar(void) {$/;"	f	class:xgboost::common::ConfigStreamReader
+GetColSize	data/simple_dmatrix.h	/^  size_t GetColSize(size_t cidx) const {$/;"	f	class:xgboost::data::SimpleDMatrix
+GetColSize	data/sparse_page_dmatrix.h	/^  size_t GetColSize(size_t cidx) const {$/;"	f	class:xgboost::data::SparsePageDMatrix
+GetFinal	metric/elementwise_metric.cc	/^  inline static float GetFinal(float esum, float wsum) {$/;"	f	struct:xgboost::metric::EvalEWiseBase
+GetFinal	metric/elementwise_metric.cc	/^  inline static float GetFinal(float esum, float wsum) {$/;"	f	struct:xgboost::metric::EvalRMSE
+GetFinal	metric/multiclass_metric.cc	/^  inline static float GetFinal(float esum, float wsum) {$/;"	f	struct:xgboost::metric::EvalMClassBase
+GetLambdaMAP	objective/rank_obj.cc	/^  inline float GetLambdaMAP(const std::vector<ListEntry> &sorted_list,$/;"	f	class:xgboost::obj::LambdaRankObjMAP
+GetLeafPosition	tree/updater_colmaker.cc	/^    inline const int* GetLeafPosition() const {$/;"	f	struct:xgboost::tree::DistColMaker::Builder
+GetMAPStats	objective/rank_obj.cc	/^  inline void GetMAPStats(const std::vector<ListEntry> &sorted_list,$/;"	f	class:xgboost::obj::LambdaRankObjMAP
+GetNextToken	common/config.h	/^  inline bool GetNextToken(std::string *tok) {$/;"	f	class:xgboost::common::ConfigReaderBase
+GetNodeStats	tree/updater_basemaker-inl.h	/^  inline void GetNodeStats(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::BaseMaker
+GetRowBatch	data/sparse_batch_page.h	/^  inline RowBatch GetRowBatch(size_t base_rowid) const {$/;"	f	class:xgboost::data::SparsePage
+GetSummary	common/quantile.h	/^  inline void GetSummary(SummaryContainer *out) {$/;"	f	class:xgboost::common::QuantileSketchTemplate
+GlobalRandom	common/common.cc	/^GlobalRandomEngine& GlobalRandom() {$/;"	f	namespace:xgboost::common
+GlobalRandomEngine	common/random.h	/^typedef CustomGlobalRandomEngine GlobalRandomEngine;$/;"	t	namespace:xgboost::common
+GlobalRandomEngine	common/random.h	/^typedef RandomEngine GlobalRandomEngine;$/;"	t	namespace:xgboost::common
+GradStats	tree/param.h	/^  GradStats() {}$/;"	f	struct:xgboost::tree::GradStats
+GradStats	tree/param.h	/^  explicit GradStats(const TrainParam& param) {$/;"	f	struct:xgboost::tree::GradStats
+GradStats	tree/param.h	/^struct GradStats {$/;"	s	namespace:xgboost::tree
+HistEntry	tree/updater_histmaker.cc	/^  struct HistEntry {$/;"	s	class:xgboost::tree::CQHistMaker	file:
+HistMaker	tree/updater_histmaker.cc	/^class HistMaker: public BaseMaker {$/;"	c	namespace:xgboost::tree	file:
+HistSet	tree/updater_histmaker.cc	/^  struct HistSet {$/;"	s	class:xgboost::tree::HistMaker	file:
+HistUnit	tree/updater_histmaker.cc	/^    HistUnit() {}$/;"	f	struct:xgboost::tree::HistMaker::HistUnit
+HistUnit	tree/updater_histmaker.cc	/^    HistUnit(const bst_float *cut, TStats *data, unsigned size)$/;"	f	struct:xgboost::tree::HistMaker::HistUnit
+HistUnit	tree/updater_histmaker.cc	/^  struct HistUnit {$/;"	s	class:xgboost::tree::HistMaker	file:
+Init	common/config.h	/^  inline void Init(void) {$/;"	f	class:xgboost::common::ConfigReaderBase
+Init	common/quantile.h	/^  inline void Init(size_t maxn, double eps) {$/;"	f	class:xgboost::common::QuantileSketchTemplate
+Init	data/sparse_page_dmatrix.cc	/^void SparsePageDMatrix::ColPageIter::Init(const std::vector<bst_uint>& index_set,$/;"	f	class:xgboost::data::SparsePageDMatrix::ColPageIter
+Init	tree/updater_basemaker-inl.h	/^    inline void Init(unsigned max_size) {$/;"	f	struct:xgboost::tree::BaseMaker::SketchEntry
+Init	tree/updater_histmaker.cc	/^    inline void Init(const TrainParam &param, int nthread) {$/;"	f	struct:xgboost::tree::HistMaker::ThreadWSpace
+InitBudget	common/group_data.h	/^  inline void InitBudget(size_t nkeys, int nthread) {$/;"	f	struct:xgboost::common::ParallelGroupBuilder
+InitByCol	tree/updater_basemaker-inl.h	/^    inline void InitByCol(DMatrix* p_fmat,$/;"	f	struct:xgboost::tree::BaseMaker::FMetaHelper
+InitColAccess	data/simple_dmatrix.cc	/^void SimpleDMatrix::InitColAccess(const std::vector<bool> &enabled,$/;"	f	class:xgboost::data::SimpleDMatrix
+InitColAccess	data/sparse_page_dmatrix.cc	/^void SparsePageDMatrix::InitColAccess(const std::vector<bool>& enabled,$/;"	f	class:xgboost::data::SparsePageDMatrix
+InitData	tree/updater_basemaker-inl.h	/^  inline void InitData(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::BaseMaker
+InitData	tree/updater_colmaker.cc	/^    inline void InitData(const std::vector<bst_gpair>& gpair,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+InitFromBool	common/bitmap.h	/^  inline void InitFromBool(const std::vector<int>& vec) {$/;"	f	struct:xgboost::common::BitMap
+InitLevel	common/quantile.h	/^  inline void InitLevel(size_t nlevel) {$/;"	f	class:xgboost::common::QuantileSketchTemplate
+InitModel	gbm/gblinear.cc	/^    inline void InitModel(void) {$/;"	f	class:xgboost::gbm::GBLinear::Model
+InitNewNode	tree/updater_colmaker.cc	/^    inline void InitNewNode(const std::vector<int>& qexpand,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+InitPosition	common/base64.h	/^  inline void InitPosition(void) {$/;"	f	class:xgboost::common::Base64InStream
+InitStorage	common/group_data.h	/^  inline void InitStorage(void) {$/;"	f	struct:xgboost::common::ParallelGroupBuilder
+InitThreadTemp	gbm/gbtree.cc	/^  inline void InitThreadTemp(int nthread) {$/;"	f	class:xgboost::gbm::GBTree
+InitUpdater	gbm/gbtree.cc	/^  inline void InitUpdater() {$/;"	f	class:xgboost::gbm::GBTree
+InitWorkSet	tree/updater_histmaker.cc	/^  virtual void InitWorkSet(DMatrix *p_fmat,$/;"	f	class:xgboost::tree::HistMaker
+IsEOF	common/base64.h	/^  inline bool IsEOF(void) const {$/;"	f	class:xgboost::common::Base64InStream
+IsEnd	common/config.h	/^  virtual bool IsEnd(void) {$/;"	f	class:xgboost::common::ConfigStreamReader
+LabelErrorMsg	objective/regression_obj.cc	/^  static const char* LabelErrorMsg() { return ""; }$/;"	f	struct:xgboost::obj::LinearSquareLoss
+LabelErrorMsg	objective/regression_obj.cc	/^  static const char* LabelErrorMsg() {$/;"	f	struct:xgboost::obj::LogisticRegression
+LambdaPair	objective/rank_obj.cc	/^    LambdaPair(unsigned pos_index, unsigned neg_index)$/;"	f	struct:xgboost::obj::LambdaRankObj::LambdaPair
+LambdaPair	objective/rank_obj.cc	/^  struct LambdaPair {$/;"	s	class:xgboost::obj::LambdaRankObj	file:
+LambdaRankObj	objective/rank_obj.cc	/^class LambdaRankObj : public ObjFunction {$/;"	c	namespace:xgboost::obj	file:
+LambdaRankObjMAP	objective/rank_obj.cc	/^class LambdaRankObjMAP : public LambdaRankObj {$/;"	c	namespace:xgboost::obj	file:
+LambdaRankObjNDCG	objective/rank_obj.cc	/^class LambdaRankObjNDCG : public LambdaRankObj {$/;"	c	namespace:xgboost::obj	file:
+LambdaRankParam	objective/rank_obj.cc	/^struct LambdaRankParam : public dmlc::Parameter<LambdaRankParam> {$/;"	s	namespace:xgboost::obj	file:
+LazyInit	c_api/c_api.cc	/^  inline void LazyInit() {$/;"	f	class:xgboost::Booster
+LazyInitDMatrix	learner.cc	/^  inline void LazyInitDMatrix(DMatrix *p_train) {$/;"	f	class:xgboost::LearnerImpl
+LazyInitModel	learner.cc	/^  inline void LazyInitModel() {$/;"	f	class:xgboost::LearnerImpl
+LearnerImpl	learner.cc	/^class LearnerImpl : public Learner {$/;"	c	namespace:xgboost	file:
+LearnerModelParam	learner.cc	/^  LearnerModelParam() {$/;"	f	struct:xgboost::LearnerModelParam
+LearnerModelParam	learner.cc	/^struct LearnerModelParam$/;"	s	namespace:xgboost	file:
+LearnerTrainParam	learner.cc	/^struct LearnerTrainParam$/;"	s	namespace:xgboost	file:
+LinearSquareLoss	objective/regression_obj.cc	/^struct LinearSquareLoss {$/;"	s	namespace:xgboost::obj	file:
+ListEntry	objective/rank_obj.cc	/^    ListEntry(float pred, float label, unsigned rindex)$/;"	f	struct:xgboost::obj::LambdaRankObj::ListEntry
+ListEntry	objective/rank_obj.cc	/^  struct ListEntry {$/;"	s	class:xgboost::obj::LambdaRankObj	file:
+Load	common/quantile.h	/^    inline void Load(TStream &fi) {  \/\/ NOLINT(*)$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+Load	data/data.cc	/^DMatrix* DMatrix::Load(const std::string& uri,$/;"	f	class:xgboost::DMatrix
+Load	gbm/gblinear.cc	/^    inline void Load(dmlc::Stream* fi) {$/;"	f	class:xgboost::gbm::GBLinear::Model
+LoadBinary	data/data.cc	/^void MetaInfo::LoadBinary(dmlc::Stream *fi) {$/;"	f	class:xgboost::MetaInfo
+LoadBinary	data/simple_csr_source.cc	/^void SimpleCSRSource::LoadBinary(dmlc::Stream* fi) {$/;"	f	class:xgboost::data::SimpleCSRSource
+LoadModel	c_api/c_api.cc	/^  inline void LoadModel(dmlc::Stream* fi) {$/;"	f	class:xgboost::Booster
+LogGamma	common/math.h	/^inline T LogGamma(T v) {$/;"	f	namespace:xgboost::common
+LogSum	common/math.h	/^inline float LogSum(Iterator begin, Iterator end) {$/;"	f	namespace:xgboost::common
+LogSum	common/math.h	/^inline float LogSum(float x, float y) {$/;"	f	namespace:xgboost::common
+LogisticClassification	objective/regression_obj.cc	/^struct LogisticClassification : public LogisticRegression {$/;"	s	namespace:xgboost::obj	file:
+LogisticRaw	objective/regression_obj.cc	/^struct LogisticRaw : public LogisticRegression {$/;"	s	namespace:xgboost::obj	file:
+LogisticRegression	objective/regression_obj.cc	/^struct LogisticRegression {$/;"	s	namespace:xgboost::obj	file:
+MAPStats	objective/rank_obj.cc	/^    MAPStats(float ap_acc, float ap_acc_miss, float ap_acc_add, float hits)$/;"	f	struct:xgboost::obj::LambdaRankObjMAP::MAPStats
+MAPStats	objective/rank_obj.cc	/^    MAPStats(void) {}$/;"	f	struct:xgboost::obj::LambdaRankObjMAP::MAPStats
+MAPStats	objective/rank_obj.cc	/^  struct MAPStats {$/;"	s	class:xgboost::obj::LambdaRankObjMAP	file:
+MX_TREAD_LOCAL	common/thread_local.h	21;"	d
+MakeColPage	data/simple_dmatrix.cc	/^void SimpleDMatrix::MakeColPage(const RowBatch& batch,$/;"	f	class:xgboost::data::SimpleDMatrix
+MakeManyBatch	data/simple_dmatrix.cc	/^void SimpleDMatrix::MakeManyBatch(const std::vector<bool>& enabled,$/;"	f	class:xgboost::data::SimpleDMatrix
+MakeOneBatch	data/simple_dmatrix.cc	/^void SimpleDMatrix::MakeOneBatch(const std::vector<bool>& enabled,$/;"	f	class:xgboost::data::SimpleDMatrix
+MakeSummary	common/quantile.h	/^    inline void MakeSummary(GKSummary *out) {$/;"	f	struct:xgboost::common::GKSummary::Queue
+MakeSummary	common/quantile.h	/^    inline void MakeSummary(WQSummary *out) {$/;"	f	struct:xgboost::common::WQSummary::Queue
+MaxError	common/quantile.h	/^  inline RType MaxError() const {$/;"	f	struct:xgboost::common::GKSummary
+MaxError	common/quantile.h	/^  inline RType MaxError() const {$/;"	f	struct:xgboost::common::WQSummary
+MaxRank	common/quantile.h	/^  inline RType MaxRank() const {$/;"	f	struct:xgboost::common::GKSummary
+MaxRank	common/quantile.h	/^  inline RType MaxRank() const {$/;"	f	struct:xgboost::common::WQSummary
+MaxValue	tree/updater_basemaker-inl.h	/^    inline bst_float MaxValue(bst_uint fid) const {$/;"	f	struct:xgboost::tree::BaseMaker::FMetaHelper
+MemCostBytes	data/sparse_batch_page.h	/^  inline size_t MemCostBytes(void) const {$/;"	f	class:xgboost::data::SparsePage
+MemoryBufferStream	common/io.h	/^typedef rabit::utils::MemoryBufferStream MemoryBufferStream;$/;"	t	namespace:xgboost::common
+MemoryFixSizeBuffer	common/io.h	/^typedef rabit::utils::MemoryFixSizeBuffer MemoryFixSizeBuffer;$/;"	t	namespace:xgboost::common
+MetaTryLoadFloatInfo	data/data.cc	/^inline bool MetaTryLoadFloatInfo(const std::string& fname,$/;"	f	namespace:xgboost
+MetaTryLoadGroup	data/data.cc	/^inline bool MetaTryLoadGroup(const std::string& fname,$/;"	f	namespace:xgboost
+Model	gbm/gblinear.cc	/^  class Model {$/;"	c	class:xgboost::gbm::GBLinear	file:
+ModelInitialized	learner.cc	/^  inline bool ModelInitialized() const {$/;"	f	class:xgboost::LearnerImpl
+NOMINMAX	cli_main.cc	10;"	d	file:
+NeedReplace	tree/param.h	/^  inline bool NeedReplace(bst_float new_loss_chg, unsigned split_index) const {$/;"	f	struct:xgboost::tree::SplitEntry
+Next	common/config.h	/^  inline bool Next(void) {$/;"	f	class:xgboost::common::ConfigReaderBase
+Next	data/simple_csr_source.cc	/^bool SimpleCSRSource::Next() {$/;"	f	class:xgboost::data::SimpleCSRSource
+Next	data/simple_dmatrix.cc	/^bool SimpleDMatrix::ColBatchIter::Next() {$/;"	f	class:xgboost::data::SimpleDMatrix::ColBatchIter
+Next	data/sparse_page_dmatrix.cc	/^bool SparsePageDMatrix::ColPageIter::Next() {$/;"	f	class:xgboost::data::SparsePageDMatrix::ColPageIter
+Next	data/sparse_page_source.cc	/^bool SparsePageSource::Next() {$/;"	f	class:xgboost::data::SparsePageSource
+NextLevel	tree/updater_basemaker-inl.h	/^  inline static int NextLevel(const RowBatch::Inst &inst, const RegTree &tree, int nid) {$/;"	f	class:xgboost::tree::BaseMaker
+NodeEntry	tree/updater_colmaker.cc	/^    explicit NodeEntry(const TrainParam& param)$/;"	f	struct:xgboost::tree::ColMaker::NodeEntry
+NodeEntry	tree/updater_colmaker.cc	/^  struct NodeEntry {$/;"	s	class:xgboost::tree::ColMaker	file:
+PairwiseRankObj	objective/rank_obj.cc	/^class PairwiseRankObj: public LambdaRankObj{$/;"	c	namespace:xgboost::obj	file:
+ParallelFindSplit	tree/updater_colmaker.cc	/^    inline void ParallelFindSplit(const ColBatch::Inst &col,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+ParallelGroupBuilder	common/group_data.h	/^  ParallelGroupBuilder(std::vector<SizeType> *p_rptr,$/;"	f	struct:xgboost::common::ParallelGroupBuilder
+ParallelGroupBuilder	common/group_data.h	/^struct ParallelGroupBuilder {$/;"	s	namespace:xgboost::common
+ParseStr	common/config.h	/^  inline void ParseStr(std::string *tok) {$/;"	f	class:xgboost::common::ConfigReaderBase
+ParseStrML	common/config.h	/^  inline void ParseStrML(std::string *tok) {$/;"	f	class:xgboost::common::ConfigReaderBase
+PeekRead	common/io.h	/^  size_t PeekRead(void* dptr, size_t size) {$/;"	f	class:xgboost::common::PeekableInStream
+PeekableInStream	common/io.h	/^  explicit PeekableInStream(dmlc::Stream* strm)$/;"	f	class:xgboost::common::PeekableInStream
+PeekableInStream	common/io.h	/^class PeekableInStream : public dmlc::Stream {$/;"	c	namespace:xgboost::common
+PoissonRegression	objective/regression_obj.cc	/^class PoissonRegression : public ObjFunction {$/;"	c	namespace:xgboost::obj	file:
+PoissonRegressionParam	objective/regression_obj.cc	/^struct PoissonRegressionParam : public dmlc::Parameter<PoissonRegressionParam> {$/;"	s	namespace:xgboost::obj	file:
+Pred	gbm/gblinear.cc	/^  inline void Pred(const RowBatch::Inst &inst, float *preds) {$/;"	f	class:xgboost::gbm::GBLinear
+Pred	gbm/gbtree.cc	/^  inline void Pred(const RowBatch::Inst &inst,$/;"	f	class:xgboost::gbm::GBTree
+PredBufferSize	gbm/gbtree.cc	/^  inline size_t PredBufferSize() const {$/;"	f	class:xgboost::gbm::GBTree
+PredPath	gbm/gbtree.cc	/^  inline void PredPath(DMatrix *p_fmat,$/;"	f	class:xgboost::gbm::GBTree
+PredTransform	objective/regression_obj.cc	/^  static float PredTransform(float x) { return common::Sigmoid(x); }$/;"	f	struct:xgboost::obj::LogisticRegression
+PredTransform	objective/regression_obj.cc	/^  static float PredTransform(float x) { return x; }$/;"	f	struct:xgboost::obj::LinearSquareLoss
+PredTransform	objective/regression_obj.cc	/^  static float PredTransform(float x) { return x; }$/;"	f	struct:xgboost::obj::LogisticRaw
+PredictRaw	learner.cc	/^  inline void PredictRaw(DMatrix* data,$/;"	f	class:xgboost::LearnerImpl
+Print	common/quantile.h	/^  inline void Print() const {$/;"	f	struct:xgboost::common::GKSummary
+Print	common/quantile.h	/^  inline void Print() const {$/;"	f	struct:xgboost::common::WQSummary
+ProbToMargin	objective/regression_obj.cc	/^  static float ProbToMargin(float base_score) { return base_score; }$/;"	f	struct:xgboost::obj::LinearSquareLoss
+ProbToMargin	objective/regression_obj.cc	/^  static float ProbToMargin(float base_score) {$/;"	f	struct:xgboost::obj::LogisticRegression
+Push	common/group_data.h	/^  inline void Push(size_t key, ValueType value, int threadid) {$/;"	f	struct:xgboost::common::ParallelGroupBuilder
+Push	common/quantile.h	/^    inline void Push(DType x, RType w) {$/;"	f	struct:xgboost::common::GKSummary::Queue
+Push	common/quantile.h	/^    inline void Push(DType x, RType w) {$/;"	f	struct:xgboost::common::WQSummary::Queue
+Push	common/quantile.h	/^  inline void Push(DType x, RType w = 1) {$/;"	f	class:xgboost::common::QuantileSketchTemplate
+Push	data/sparse_batch_page.h	/^  inline void Push(const RowBatch &batch) {$/;"	f	class:xgboost::data::SparsePage
+Push	data/sparse_batch_page.h	/^  inline void Push(const SparseBatch::Inst &inst) {$/;"	f	class:xgboost::data::SparsePage
+Push	data/sparse_batch_page.h	/^  inline void Push(const SparsePage &batch) {$/;"	f	class:xgboost::data::SparsePage
+Push	data/sparse_batch_page.h	/^  inline void Push(const dmlc::RowBlock<uint32_t>& batch) {$/;"	f	class:xgboost::data::SparsePage
+Push	tree/updater_basemaker-inl.h	/^    inline void Push(bst_float fvalue, bst_float w, unsigned max_size) {$/;"	f	struct:xgboost::tree::BaseMaker::SketchEntry
+PushTemp	common/quantile.h	/^  inline void PushTemp() {$/;"	f	class:xgboost::common::QuantileSketchTemplate
+PutChar	common/base64.h	/^  inline void PutChar(char ch) {$/;"	f	class:xgboost::common::Base64OutStream
+QEntry	common/quantile.h	/^      QEntry() {}$/;"	f	struct:xgboost::common::WQSummary::Queue::QEntry
+QEntry	common/quantile.h	/^      QEntry(DType value, RType weight)$/;"	f	struct:xgboost::common::WQSummary::Queue::QEntry
+QEntry	common/quantile.h	/^    struct QEntry {$/;"	s	struct:xgboost::common::WQSummary::Queue
+QuantileHistMaker	tree/updater_histmaker.cc	/^class QuantileHistMaker: public HistMaker<TStats> {$/;"	c	namespace:xgboost::tree	file:
+QuantileSketchTemplate	common/quantile.h	/^class QuantileSketchTemplate {$/;"	c	namespace:xgboost::common
+Query	common/quantile.h	/^  inline Entry Query(DType qvalue, size_t &istart) const { \/\/ NOLINT(*)$/;"	f	struct:xgboost::common::WQSummary
+Queue	common/quantile.h	/^  struct Queue {$/;"	s	struct:xgboost::common::GKSummary
+Queue	common/quantile.h	/^  struct Queue {$/;"	s	struct:xgboost::common::WQSummary
+RandomEngine	common/random.h	/^typedef std::mt19937 RandomEngine;$/;"	t	namespace:xgboost::common
+Read	common/base64.h	/^  virtual size_t Read(void *ptr, size_t size) {$/;"	f	class:xgboost::common::Base64InStream
+Read	common/base64.h	/^  virtual size_t Read(void *ptr, size_t size) {$/;"	f	class:xgboost::common::Base64OutStream
+Reduce	common/quantile.h	/^    inline void Reduce(const Summary &src, size_t max_nbyte) {$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+Reduce	tree/param.h	/^  inline static void Reduce(GradStats& a, const GradStats& b) { \/\/ NOLINT(*)$/;"	f	struct:xgboost::tree::GradStats
+Reduce	tree/param.h	/^  inline static void Reduce(SplitEntry& dst, const SplitEntry& src) { \/\/ NOLINT(*)$/;"	f	struct:xgboost::tree::SplitEntry
+Reduce	tree/updater_skmaker.cc	/^    inline static void Reduce(SKStats &a, const SKStats &b) { \/\/ NOLINT(*)$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+Refresh	tree/updater_refresh.cc	/^  inline void Refresh(const TStats *gstats,$/;"	f	class:xgboost::tree::TreeRefresher	file:
+RegLossObj	objective/regression_obj.cc	/^class RegLossObj : public ObjFunction {$/;"	c	namespace:xgboost::obj	file:
+RegLossParam	objective/regression_obj.cc	/^struct RegLossParam : public dmlc::Parameter<RegLossParam> {$/;"	s	namespace:xgboost::obj	file:
+RegisterDelete	common/thread_local.h	/^  void RegisterDelete(T *str) {$/;"	f	class:xgboost::common::ThreadLocalStore
+Reserve	common/quantile.h	/^    inline void Reserve(size_t size) {$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+ResetPosition	tree/updater_colmaker.cc	/^    inline void ResetPosition(const std::vector<int> &qexpand,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+ResetPositionAfterSplit	tree/updater_histmaker.cc	/^  virtual void ResetPositionAfterSplit(DMatrix *p_fmat,$/;"	f	class:xgboost::tree::HistMaker
+ResetPositionCol	tree/updater_basemaker-inl.h	/^  inline void ResetPositionCol(const std::vector<int> &nodes,$/;"	f	class:xgboost::tree::BaseMaker
+Resize	common/bitmap.h	/^  inline void Resize(size_t size) {$/;"	f	struct:xgboost::common::BitMap
+SKStats	tree/updater_skmaker.cc	/^    SKStats(void) {}$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+SKStats	tree/updater_skmaker.cc	/^    explicit SKStats(const TrainParam &param) {$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+SKStats	tree/updater_skmaker.cc	/^  struct SKStats {$/;"	s	class:xgboost::tree::SketchMaker	file:
+SampleCol	tree/updater_basemaker-inl.h	/^    inline void SampleCol(float p, std::vector<bst_uint> *p_findex) const {$/;"	f	struct:xgboost::tree::BaseMaker::FMetaHelper
+Save	common/quantile.h	/^    inline void Save(TStream &fo) const {  \/\/ NOLINT(*)$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+Save	gbm/gblinear.cc	/^    inline void Save(dmlc::Stream* fo) const {$/;"	f	class:xgboost::gbm::GBLinear::Model
+SaveBinary	data/data.cc	/^void MetaInfo::SaveBinary(dmlc::Stream *fo) const {$/;"	f	class:xgboost::MetaInfo
+SaveBinary	data/simple_csr_source.cc	/^void SimpleCSRSource::SaveBinary(dmlc::Stream* fo) const {$/;"	f	class:xgboost::data::SimpleCSRSource
+SaveToLocalFile	data/data.cc	/^void DMatrix::SaveToLocalFile(const std::string& fname) {$/;"	f	class:xgboost::DMatrix
+SecondOrderGradient	objective/regression_obj.cc	/^  static float SecondOrderGradient(float predt, float label) { return 1.0f; }$/;"	f	struct:xgboost::obj::LinearSquareLoss
+SecondOrderGradient	objective/regression_obj.cc	/^  static float SecondOrderGradient(float predt, float label) {$/;"	f	struct:xgboost::obj::LogisticRaw
+SecondOrderGradient	objective/regression_obj.cc	/^  static float SecondOrderGradient(float predt, float label) {$/;"	f	struct:xgboost::obj::LogisticRegression
+SetCombine	common/quantile.h	/^  inline void SetCombine(const GKSummary &sa,$/;"	f	struct:xgboost::common::GKSummary
+SetCombine	common/quantile.h	/^  inline void SetCombine(const WQSummary &sa,$/;"	f	struct:xgboost::common::WQSummary
+SetEncodePosition	tree/updater_basemaker-inl.h	/^  inline void SetEncodePosition(bst_uint ridx, int nid) {$/;"	f	class:xgboost::tree::BaseMaker
+SetEncodePosition	tree/updater_colmaker.cc	/^    inline void SetEncodePosition(bst_uint ridx, int nid) {$/;"	f	struct:xgboost::tree::ColMaker::Builder
+SetInfo	data/data.cc	/^void MetaInfo::SetInfo(const char* key, const void* dptr, DataType dtype, size_t num) {$/;"	f	class:xgboost::MetaInfo
+SetLeafVec	tree/param.h	/^  inline void SetLeafVec(const TrainParam& param, bst_float *vec) const {$/;"	f	struct:xgboost::tree::GradStats
+SetLeafVec	tree/updater_skmaker.cc	/^    inline void SetLeafVec(const TrainParam &param, bst_float *vec) const {$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+SetMerge	common/quantile.h	/^    inline void SetMerge(const Summary *begin,$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+SetNonDefaultPosition	tree/updater_colmaker.cc	/^    virtual void SetNonDefaultPosition(const std::vector<int> &qexpand,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+SetNonDefaultPositionCol	tree/updater_basemaker-inl.h	/^  virtual void SetNonDefaultPositionCol(const std::vector<int> &nodes,$/;"	f	class:xgboost::tree::BaseMaker
+SetParam	c_api/c_api.cc	/^  inline void SetParam(const std::string& name, const std::string& val) {$/;"	f	class:xgboost::Booster
+SetPrune	common/quantile.h	/^  inline void SetPrune(const GKSummary &src, size_t maxsize) {$/;"	f	struct:xgboost::common::GKSummary
+SetPrune	common/quantile.h	/^  inline void SetPrune(const WQSummary &src, size_t maxsize) {$/;"	f	struct:xgboost::common::WQSummary
+SetPrune	common/quantile.h	/^  inline void SetPrune(const WQSummary<DType, RType> &src, size_t maxsize) {$/;"	f	struct:xgboost::common::WXQSummary
+SetStats	tree/updater_histmaker.cc	/^  inline void SetStats(RegTree *p_tree, int nid, const TStats &node_sum) {$/;"	f	class:xgboost::tree::HistMaker	file:
+SetStats	tree/updater_skmaker.cc	/^  inline void SetStats(int nid, const SKStats &node_sum, RegTree *p_tree) {$/;"	f	class:xgboost::tree::SketchMaker	file:
+SetSubstract	tree/param.h	/^  inline void SetSubstract(const GradStats& a, const GradStats& b) {$/;"	f	struct:xgboost::tree::GradStats
+SetSubstract	tree/updater_skmaker.cc	/^    inline void SetSubstract(const SKStats &a, const SKStats &b) {$/;"	f	struct:xgboost::tree::SketchMaker::SKStats
+SetTrue	common/bitmap.h	/^  inline void SetTrue(size_t i) {$/;"	f	struct:xgboost::common::BitMap
+Sigmoid	common/math.h	/^inline float Sigmoid(float x) {$/;"	f	namespace:xgboost::common
+SimpleCSRSource	data/simple_csr_source.h	/^  SimpleCSRSource() : row_ptr_(1, 0), at_first_(true) {}$/;"	f	class:xgboost::data::SimpleCSRSource
+SimpleCSRSource	data/simple_csr_source.h	/^class SimpleCSRSource : public DataSource {$/;"	c	namespace:xgboost::data
+SimpleDMatrix	data/simple_dmatrix.h	/^  explicit SimpleDMatrix(std::unique_ptr<DataSource>&& source)$/;"	f	class:xgboost::data::SimpleDMatrix
+SimpleDMatrix	data/simple_dmatrix.h	/^class SimpleDMatrix : public DMatrix {$/;"	c	namespace:xgboost::data
+SingleColBlock	data/simple_dmatrix.cc	/^bool SimpleDMatrix::SingleColBlock() const {$/;"	f	class:xgboost::data::SimpleDMatrix
+Singleton	common/thread_local.h	/^  static ThreadLocalStore<T> *Singleton() {$/;"	f	class:xgboost::common::ThreadLocalStore
+Size	data/sparse_batch_page.h	/^  inline size_t Size() const {$/;"	f	class:xgboost::data::SparsePage
+Size	tree/updater_histmaker.cc	/^    inline size_t Size() const {$/;"	f	struct:xgboost::tree::HistMaker::ThreadWSpace
+SketchEntry	tree/updater_basemaker-inl.h	/^  struct SketchEntry {$/;"	s	class:xgboost::tree::BaseMaker
+SketchMaker	tree/updater_skmaker.cc	/^class SketchMaker: public BaseMaker {$/;"	c	namespace:xgboost::tree	file:
+SkipLine	common/config.h	/^  inline void SkipLine(void) {$/;"	f	class:xgboost::common::ConfigReaderBase
+Softmax	common/math.h	/^inline void Softmax(std::vector<float>* p_rec) {$/;"	f	namespace:xgboost::common
+SoftmaxMultiClassObj	objective/multiclass_obj.cc	/^  explicit SoftmaxMultiClassObj(bool output_prob)$/;"	f	class:xgboost::obj::SoftmaxMultiClassObj
+SoftmaxMultiClassObj	objective/multiclass_obj.cc	/^class SoftmaxMultiClassObj : public ObjFunction {$/;"	c	namespace:xgboost::obj	file:
+SoftmaxMultiClassParam	objective/multiclass_obj.cc	/^struct SoftmaxMultiClassParam : public dmlc::Parameter<SoftmaxMultiClassParam> {$/;"	s	namespace:xgboost::obj	file:
+SparsePage	data/sparse_batch_page.h	/^  SparsePage() {$/;"	f	class:xgboost::data::SparsePage
+SparsePage	data/sparse_batch_page.h	/^class SparsePage {$/;"	c	namespace:xgboost::data
+SparsePageDMatrix	data/sparse_page_dmatrix.h	/^  explicit SparsePageDMatrix(std::unique_ptr<DataSource>&& source,$/;"	f	class:xgboost::data::SparsePageDMatrix
+SparsePageDMatrix	data/sparse_page_dmatrix.h	/^class SparsePageDMatrix : public DMatrix {$/;"	c	namespace:xgboost::data
+SparsePageFormatReg	data/sparse_batch_page.h	/^struct SparsePageFormatReg$/;"	s	namespace:xgboost::data
+SparsePageRawFormat	data/sparse_page_raw_format.cc	/^class SparsePageRawFormat : public SparsePage::Format {$/;"	c	namespace:xgboost::data	file:
+SparsePageSource	data/sparse_page_source.cc	/^SparsePageSource::SparsePageSource(const std::string& cache_prefix)$/;"	f	class:xgboost::data::SparsePageSource
+SparsePageSource	data/sparse_page_source.h	/^class SparsePageSource : public DataSource {$/;"	c	namespace:xgboost::data
+SplitEntry	tree/param.h	/^  SplitEntry() : loss_chg(0.0f), sindex(0), split_value(0.0f) {}$/;"	f	struct:xgboost::tree::SplitEntry
+SplitEntry	tree/param.h	/^struct SplitEntry {$/;"	s	namespace:xgboost::tree
+Sqr	tree/param.h	/^  inline static double Sqr(double a) {$/;"	f	struct:xgboost::tree::TrainParam
+StreamBufferReader	common/base64.h	/^  explicit StreamBufferReader(size_t buffer_size)$/;"	f	class:xgboost::common::StreamBufferReader
+StreamBufferReader	common/base64.h	/^class StreamBufferReader {$/;"	c	namespace:xgboost::common
+Summary	common/quantile.h	/^  typedef TSummary Summary;$/;"	t	class:xgboost::common::QuantileSketchTemplate
+SummaryContainer	common/quantile.h	/^    SummaryContainer() : Summary(NULL, 0) {$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+SummaryContainer	common/quantile.h	/^    SummaryContainer(const SummaryContainer &src) : Summary(NULL, src.size) {$/;"	f	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+SummaryContainer	common/quantile.h	/^  struct SummaryContainer : public Summary {$/;"	s	class:xgboost::common::QuantileSketchTemplate
+SyncBestSolution	tree/updater_colmaker.cc	/^    virtual void SyncBestSolution(const std::vector<int> &qexpand) {$/;"	f	struct:xgboost::tree::ColMaker::Builder
+SyncBestSolution	tree/updater_colmaker.cc	/^    virtual void SyncBestSolution(const std::vector<int> &qexpand) {$/;"	f	struct:xgboost::tree::DistColMaker::Builder
+SyncNodeStats	tree/updater_skmaker.cc	/^  inline void SyncNodeStats(void) {$/;"	f	class:xgboost::tree::SketchMaker	file:
+ThreadEntry	tree/updater_colmaker.cc	/^    explicit ThreadEntry(const TrainParam &param)$/;"	f	struct:xgboost::tree::ColMaker::ThreadEntry
+ThreadEntry	tree/updater_colmaker.cc	/^  struct ThreadEntry {$/;"	s	class:xgboost::tree::ColMaker	file:
+ThreadLocalStore	common/thread_local.h	/^  ThreadLocalStore() {}$/;"	f	class:xgboost::common::ThreadLocalStore
+ThreadLocalStore	common/thread_local.h	/^class ThreadLocalStore {$/;"	c	namespace:xgboost::common
+ThreadWSpace	tree/updater_histmaker.cc	/^  struct ThreadWSpace {$/;"	s	class:xgboost::tree::HistMaker	file:
+ThresholdL1	tree/param.h	/^  inline static double ThresholdL1(double w, double lambda) {$/;"	f	struct:xgboost::tree::TrainParam
+ToString	learner.cc	/^inline std::string ToString(const T& data) {$/;"	f	namespace:xgboost
+TrainParam	tree/param.h	/^struct TrainParam : public dmlc::Parameter<TrainParam> {$/;"	s	namespace:xgboost::tree
+Transform	objective/multiclass_obj.cc	/^  inline void Transform(std::vector<float> *io_preds, bool prob) {$/;"	f	class:xgboost::obj::SoftmaxMultiClassObj	file:
+TreePruner	tree/updater_prune.cc	/^  TreePruner() {$/;"	f	class:xgboost::tree::TreePruner
+TreePruner	tree/updater_prune.cc	/^class TreePruner: public TreeUpdater {$/;"	c	namespace:xgboost::tree	file:
+TreeRefresher	tree/updater_refresh.cc	/^class TreeRefresher: public TreeUpdater {$/;"	c	namespace:xgboost::tree	file:
+TreeSyncher	tree/updater_sync.cc	/^class TreeSyncher: public TreeUpdater {$/;"	c	namespace:xgboost::tree	file:
+TryInitColData	data/sparse_page_dmatrix.cc	/^bool SparsePageDMatrix::TryInitColData() {$/;"	f	class:xgboost::data::SparsePageDMatrix
+TryPruneLeaf	tree/updater_prune.cc	/^  inline int TryPruneLeaf(RegTree &tree, int nid, int depth, int npruned) { \/\/ NOLINT(*)$/;"	f	class:xgboost::tree::TreePruner	file:
+Type	tree/updater_basemaker-inl.h	/^    inline int Type(bst_uint fid) const {$/;"	f	struct:xgboost::tree::BaseMaker::FMetaHelper
+Update	tree/param.h	/^  inline bool Update(bst_float new_loss_chg, unsigned split_index,$/;"	f	struct:xgboost::tree::SplitEntry
+Update	tree/param.h	/^  inline bool Update(const SplitEntry& e) {$/;"	f	struct:xgboost::tree::SplitEntry
+Update	tree/updater_colmaker.cc	/^    virtual void Update(const std::vector<bst_gpair>& gpair,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+Update	tree/updater_histmaker.cc	/^  virtual void Update(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::HistMaker
+Update	tree/updater_refresh.cc	/^  void Update(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::TreeRefresher
+Update	tree/updater_skmaker.cc	/^  inline void Update(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::SketchMaker
+UpdateBufferByPosition	gbm/gbtree.cc	/^  inline void UpdateBufferByPosition(DMatrix *p_fmat,$/;"	f	class:xgboost::gbm::GBTree
+UpdateEnumeration	tree/updater_colmaker.cc	/^    inline void UpdateEnumeration(int nid, bst_gpair gstats,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+UpdateHistCol	tree/updater_histmaker.cc	/^  inline void UpdateHistCol(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::CQHistMaker	file:
+UpdateNode2WorkIndex	tree/updater_basemaker-inl.h	/^  inline void UpdateNode2WorkIndex(const RegTree &tree) {$/;"	f	class:xgboost::tree::BaseMaker
+UpdatePosition	tree/updater_colmaker.cc	/^    inline void UpdatePosition(DMatrix* p_fmat, const RegTree &tree) {$/;"	f	struct:xgboost::tree::DistColMaker::Builder
+UpdateQueueExpand	tree/updater_basemaker-inl.h	/^  inline void UpdateQueueExpand(const RegTree &tree) {$/;"	f	class:xgboost::tree::BaseMaker
+UpdateQueueExpand	tree/updater_colmaker.cc	/^    inline void UpdateQueueExpand(const RegTree& tree, std::vector<int>* p_qexpand) {$/;"	f	struct:xgboost::tree::ColMaker::Builder
+UpdateSketchCol	tree/updater_histmaker.cc	/^  inline void UpdateSketchCol(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::CQHistMaker	file:
+UpdateSketchCol	tree/updater_skmaker.cc	/^  inline void UpdateSketchCol(const std::vector<bst_gpair> &gpair,$/;"	f	class:xgboost::tree::SketchMaker	file:
+UpdateSolution	tree/updater_colmaker.cc	/^    virtual void UpdateSolution(const ColBatch& batch,$/;"	f	struct:xgboost::tree::ColMaker::Builder
+Value	data/simple_csr_source.cc	/^const RowBatch& SimpleCSRSource::Value() const {$/;"	f	class:xgboost::data::SimpleCSRSource
+Value	data/sparse_page_source.cc	/^const RowBatch& SparsePageSource::Value() const {$/;"	f	class:xgboost::data::SparsePageSource
+WQSummary	common/quantile.h	/^  WQSummary(Entry *data, size_t size)$/;"	f	struct:xgboost::common::WQSummary
+WQSummary	common/quantile.h	/^struct WQSummary {$/;"	s	namespace:xgboost::common
+WQuantileSketch	common/quantile.h	/^class WQuantileSketch :$/;"	c	namespace:xgboost::common
+WXQSketch	tree/updater_histmaker.cc	/^  typedef common::WXQuantileSketch<bst_float, bst_float> WXQSketch;$/;"	t	class:xgboost::tree::CQHistMaker	file:
+WXQSketch	tree/updater_histmaker.cc	/^  typedef common::WXQuantileSketch<bst_float, bst_float> WXQSketch;$/;"	t	class:xgboost::tree::QuantileHistMaker	file:
+WXQSketch	tree/updater_skmaker.cc	/^  typedef common::WXQuantileSketch<bst_float, bst_float> WXQSketch;$/;"	t	class:xgboost::tree::SketchMaker	file:
+WXQSummary	common/quantile.h	/^  WXQSummary(Entry *data, size_t size)$/;"	f	struct:xgboost::common::WXQSummary
+WXQSummary	common/quantile.h	/^struct WXQSummary : public WQSummary<DType, RType> {$/;"	s	namespace:xgboost::common
+WXQuantileSketch	common/quantile.h	/^class WXQuantileSketch :$/;"	c	namespace:xgboost::common
+Write	common/base64.h	/^  virtual void Write(const void *ptr, size_t size) {$/;"	f	class:xgboost::common::Base64InStream
+Write	common/base64.h	/^  virtual void Write(const void *ptr, size_t size) {$/;"	f	class:xgboost::common::Base64OutStream
+XGBAPIErrorEntry	c_api/c_api_error.cc	/^struct XGBAPIErrorEntry {$/;"	s	file:
+XGBAPIErrorStore	c_api/c_api_error.cc	/^typedef xgboost::common::ThreadLocalStore<XGBAPIErrorEntry> XGBAPIErrorStore;$/;"	t	file:
+XGBAPIHandleException	c_api/c_api_error.h	/^inline int XGBAPIHandleException(const dmlc::Error &e) {$/;"	f
+XGBAPISetLastError	c_api/c_api_error.cc	/^void XGBAPISetLastError(const char* msg) {$/;"	f
+XGBAPIThreadLocalEntry	c_api/c_api.cc	/^struct XGBAPIThreadLocalEntry {$/;"	s	file:
+XGBAPIThreadLocalStore	c_api/c_api.cc	/^typedef xgboost::common::ThreadLocalStore<XGBAPIThreadLocalEntry> XGBAPIThreadLocalStore;$/;"	t	file:
+XGBGetLastError	c_api/c_api_error.cc	/^const char *XGBGetLastError() {$/;"	f
+XGBOOST_COMMON_BASE64_H_	common/base64.h	9;"	d
+XGBOOST_COMMON_BITMAP_H_	common/bitmap.h	9;"	d
+XGBOOST_COMMON_CONFIG_H_	common/config.h	8;"	d
+XGBOOST_COMMON_GROUP_DATA_H_	common/group_data.h	15;"	d
+XGBOOST_COMMON_IO_H_	common/io.h	9;"	d
+XGBOOST_COMMON_MATH_H_	common/math.h	8;"	d
+XGBOOST_COMMON_QUANTILE_H_	common/quantile.h	8;"	d
+XGBOOST_COMMON_RANDOM_H_	common/random.h	8;"	d
+XGBOOST_COMMON_SYNC_H_	common/sync.h	9;"	d
+XGBOOST_COMMON_THREAD_LOCAL_H_	common/thread_local.h	7;"	d
+XGBOOST_C_API_C_API_ERROR_H_	c_api/c_api_error.h	7;"	d
+XGBOOST_DATA_SIMPLE_CSR_SOURCE_H_	data/simple_csr_source.h	9;"	d
+XGBOOST_DATA_SIMPLE_DMATRIX_H_	data/simple_dmatrix.h	8;"	d
+XGBOOST_DATA_SPARSE_BATCH_PAGE_H_	data/sparse_batch_page.h	10;"	d
+XGBOOST_DATA_SPARSE_PAGE_DMATRIX_H_	data/sparse_page_dmatrix.h	8;"	d
+XGBOOST_DATA_SPARSE_PAGE_SOURCE_H_	data/sparse_page_source.h	8;"	d
+XGBOOST_REGISTER_SPARSE_PAGE_FORMAT	data/sparse_batch_page.h	194;"	d
+XGBOOST_TREE_PARAM_H_	tree/param.h	8;"	d
+XGBOOST_TREE_UPDATER_BASEMAKER_INL_H_	tree/updater_basemaker-inl.h	8;"	d
+XGBoostDumpModelImpl	c_api/c_api.cc	/^inline void XGBoostDumpModelImpl($/;"	f
+XGBoosterBoostOneIter	c_api/c_api.cc	/^int XGBoosterBoostOneIter(BoosterHandle handle,$/;"	f
+XGBoosterCreate	c_api/c_api.cc	/^int XGBoosterCreate(DMatrixHandle dmats[],$/;"	f
+XGBoosterDumpModel	c_api/c_api.cc	/^int XGBoosterDumpModel(BoosterHandle handle,$/;"	f
+XGBoosterDumpModelWithFeatures	c_api/c_api.cc	/^int XGBoosterDumpModelWithFeatures(BoosterHandle handle,$/;"	f
+XGBoosterEvalOneIter	c_api/c_api.cc	/^int XGBoosterEvalOneIter(BoosterHandle handle,$/;"	f
+XGBoosterFree	c_api/c_api.cc	/^int XGBoosterFree(BoosterHandle handle) {$/;"	f
+XGBoosterGetModelRaw	c_api/c_api.cc	/^int XGBoosterGetModelRaw(BoosterHandle handle,$/;"	f
+XGBoosterLoadModel	c_api/c_api.cc	/^int XGBoosterLoadModel(BoosterHandle handle, const char* fname) {$/;"	f
+XGBoosterLoadModelFromBuffer	c_api/c_api.cc	/^int XGBoosterLoadModelFromBuffer(BoosterHandle handle,$/;"	f
+XGBoosterPredict	c_api/c_api.cc	/^int XGBoosterPredict(BoosterHandle handle,$/;"	f
+XGBoosterSaveModel	c_api/c_api.cc	/^int XGBoosterSaveModel(BoosterHandle handle, const char* fname) {$/;"	f
+XGBoosterSetParam	c_api/c_api.cc	/^int XGBoosterSetParam(BoosterHandle handle,$/;"	f
+XGBoosterUpdateOneIter	c_api/c_api.cc	/^int XGBoosterUpdateOneIter(BoosterHandle handle,$/;"	f
+XGDMatrixCreateFromCSC	c_api/c_api.cc	/^int XGDMatrixCreateFromCSC(const bst_ulong* col_ptr,$/;"	f
+XGDMatrixCreateFromCSR	c_api/c_api.cc	/^int XGDMatrixCreateFromCSR(const bst_ulong* indptr,$/;"	f
+XGDMatrixCreateFromFile	c_api/c_api.cc	/^int XGDMatrixCreateFromFile(const char *fname,$/;"	f
+XGDMatrixCreateFromMat	c_api/c_api.cc	/^int XGDMatrixCreateFromMat(const float* data,$/;"	f
+XGDMatrixFree	c_api/c_api.cc	/^int XGDMatrixFree(DMatrixHandle handle) {$/;"	f
+XGDMatrixGetFloatInfo	c_api/c_api.cc	/^int XGDMatrixGetFloatInfo(const DMatrixHandle handle,$/;"	f
+XGDMatrixGetUIntInfo	c_api/c_api.cc	/^int XGDMatrixGetUIntInfo(const DMatrixHandle handle,$/;"	f
+XGDMatrixNumCol	c_api/c_api.cc	/^int XGDMatrixNumCol(const DMatrixHandle handle,$/;"	f
+XGDMatrixNumRow	c_api/c_api.cc	/^int XGDMatrixNumRow(const DMatrixHandle handle,$/;"	f
+XGDMatrixSaveBinary	c_api/c_api.cc	/^int XGDMatrixSaveBinary(DMatrixHandle handle,$/;"	f
+XGDMatrixSetFloatInfo	c_api/c_api.cc	/^int XGDMatrixSetFloatInfo(DMatrixHandle handle,$/;"	f
+XGDMatrixSetGroup	c_api/c_api.cc	/^int XGDMatrixSetGroup(DMatrixHandle handle,$/;"	f
+XGDMatrixSetUIntInfo	c_api/c_api.cc	/^int XGDMatrixSetUIntInfo(DMatrixHandle handle,$/;"	f
+XGDMatrixSliceDMatrix	c_api/c_api.cc	/^int XGDMatrixSliceDMatrix(DMatrixHandle handle,$/;"	f
+_CRT_SECURE_NO_DEPRECATE	cli_main.cc	9;"	d	file:
+_CRT_SECURE_NO_WARNINGS	cli_main.cc	8;"	d	file:
+ap_acc	objective/rank_obj.cc	/^    float ap_acc;$/;"	m	struct:xgboost::obj::LambdaRankObjMAP::MAPStats	file:
+ap_acc_add	objective/rank_obj.cc	/^    float ap_acc_add;$/;"	m	struct:xgboost::obj::LambdaRankObjMAP::MAPStats	file:
+ap_acc_miss	objective/rank_obj.cc	/^    float ap_acc_miss;$/;"	m	struct:xgboost::obj::LambdaRankObjMAP::MAPStats	file:
+at_first_	data/simple_csr_source.h	/^  bool at_first_;$/;"	m	class:xgboost::data::SimpleCSRSource
+base64	common/base64.h	/^namespace base64 {$/;"	n	namespace:xgboost::common
+base_rowid_	data/sparse_page_source.h	/^  size_t base_rowid_;$/;"	m	class:xgboost::data::SparsePageSource
+base_score	learner.cc	/^  float base_score;$/;"	m	struct:xgboost::LearnerModelParam	file:
+batch_	data/simple_csr_source.h	/^  RowBatch batch_;$/;"	m	class:xgboost::data::SimpleCSRSource
+batch_	data/simple_dmatrix.h	/^    ColBatch batch_;$/;"	m	struct:xgboost::data::SimpleDMatrix::ColBatchIter
+batch_	data/sparse_page_source.h	/^  RowBatch batch_;$/;"	m	class:xgboost::data::SparsePageSource
+best	tree/updater_colmaker.cc	/^    SplitEntry best;$/;"	m	struct:xgboost::tree::ColMaker::NodeEntry	file:
+best	tree/updater_colmaker.cc	/^    SplitEntry best;$/;"	m	struct:xgboost::tree::ColMaker::ThreadEntry	file:
+bias	gbm/gblinear.cc	/^    inline const float* bias() const {$/;"	f	class:xgboost::gbm::GBLinear::Model
+bias	gbm/gblinear.cc	/^    inline float* bias() {$/;"	f	class:xgboost::gbm::GBLinear::Model
+bitmap	tree/updater_colmaker.cc	/^    common::BitMap bitmap;$/;"	m	struct:xgboost::tree::DistColMaker::Builder	file:
+boolmap	tree/updater_colmaker.cc	/^    std::vector<int> boolmap;$/;"	m	struct:xgboost::tree::DistColMaker::Builder	file:
+buf	common/base64.h	/^  unsigned char buf[4];$/;"	m	class:xgboost::common::Base64OutStream
+buf_prev	common/base64.h	/^  unsigned char buf_prev[2];$/;"	m	class:xgboost::common::Base64InStream
+buf_top	common/base64.h	/^  int buf_top;$/;"	m	class:xgboost::common::Base64OutStream
+buffer_	common/base64.h	/^  std::string buffer_;$/;"	m	class:xgboost::common::StreamBufferReader
+buffer_	common/io.h	/^  std::string buffer_;$/;"	m	class:xgboost::common::PeekableInStream
+buffer_offset_	learner.cc	/^    size_t buffer_offset_;$/;"	m	struct:xgboost::LearnerImpl::CacheEntry	file:
+buffer_ptr_	common/io.h	/^  size_t buffer_ptr_;$/;"	m	class:xgboost::common::PeekableInStream
+buffered_rowset_	data/simple_dmatrix.h	/^  std::vector<bst_uint> buffered_rowset_;$/;"	m	class:xgboost::data::SimpleDMatrix
+buffered_rowset_	data/sparse_page_dmatrix.h	/^  std::vector<bst_uint> buffered_rowset_;$/;"	m	class:xgboost::data::SparsePageDMatrix
+builder	tree/updater_colmaker.cc	/^  Builder builder;$/;"	m	class:xgboost::tree::DistColMaker	file:
+cache_	learner.cc	/^  std::vector<CacheEntry> cache_;$/;"	m	class:xgboost::LearnerImpl	file:
+cache_opt	tree/param.h	/^  bool cache_opt;$/;"	m	struct:xgboost::tree::TrainParam
+cache_prefix_	data/sparse_page_dmatrix.h	/^  std::string cache_prefix_;$/;"	m	class:xgboost::data::SparsePageDMatrix
+cache_prefix_	data/sparse_page_source.h	/^  std::string cache_prefix_;$/;"	m	class:xgboost::data::SparsePageSource
+cannot_split	tree/param.h	/^  inline bool cannot_split(double sum_hess, int depth) const {$/;"	f	struct:xgboost::tree::TrainParam
+cfg	cli_main.cc	/^  std::vector<std::pair<std::string, std::string> > cfg;$/;"	m	struct:xgboost::CLIParam	file:
+cfg	gbm/gbtree.cc	/^  std::vector<std::pair<std::string, std::string> > cfg;$/;"	m	class:xgboost::gbm::GBTree	file:
+cfg_	c_api/c_api.cc	/^  std::vector<std::pair<std::string, std::string> > cfg_;$/;"	m	class:xgboost::Booster	file:
+cfg_	learner.cc	/^  std::map<std::string, std::string> cfg_;$/;"	m	class:xgboost::LearnerImpl	file:
+ch_buf	common/config.h	/^  char ch_buf;$/;"	m	class:xgboost::common::ConfigReaderBase
+col_data	tree/updater_histmaker.cc	/^  std::vector<SparseBatch::Entry> col_data;$/;"	m	class:xgboost::tree::QuantileHistMaker	file:
+col_data_	data/simple_dmatrix.h	/^    std::vector<ColBatch::Inst> col_data_;$/;"	m	struct:xgboost::data::SimpleDMatrix::ColBatchIter
+col_data_	data/sparse_page_dmatrix.h	/^    std::vector<SparseBatch::Inst> col_data_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+col_index_	data/simple_dmatrix.h	/^    std::vector<bst_uint> col_index_;$/;"	m	struct:xgboost::data::SimpleDMatrix::ColBatchIter
+col_iter_	data/simple_dmatrix.h	/^  ColBatchIter col_iter_;$/;"	m	class:xgboost::data::SimpleDMatrix
+col_iter_	data/sparse_page_dmatrix.h	/^  std::unique_ptr<ColPageIter> col_iter_;$/;"	m	class:xgboost::data::SparsePageDMatrix
+col_ptr	tree/updater_histmaker.cc	/^  std::vector<size_t> col_ptr;$/;"	m	class:xgboost::tree::QuantileHistMaker	file:
+col_size_	data/simple_dmatrix.h	/^  std::vector<size_t> col_size_;$/;"	m	class:xgboost::data::SimpleDMatrix
+col_size_	data/sparse_page_dmatrix.h	/^  std::vector<size_t> col_size_;$/;"	m	class:xgboost::data::SparsePageDMatrix
+colsample_bylevel	tree/param.h	/^  float colsample_bylevel;$/;"	m	struct:xgboost::tree::TrainParam
+colsample_bytree	tree/param.h	/^  float colsample_bytree;$/;"	m	struct:xgboost::tree::TrainParam
+common	common/base64.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/bitmap.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/common.cc	/^namespace common {$/;"	n	namespace:xgboost	file:
+common	common/config.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/group_data.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/io.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/math.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/quantile.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/random.h	/^namespace common {$/;"	n	namespace:xgboost
+common	common/thread_local.h	/^namespace common {$/;"	n	namespace:xgboost
+configured_	c_api/c_api.cc	/^  bool configured_;$/;"	m	class:xgboost::Booster	file:
+cpages_	data/simple_dmatrix.h	/^    std::vector<std::unique_ptr<SparsePage> > cpages_;$/;"	m	struct:xgboost::data::SimpleDMatrix::ColBatchIter
+cut	tree/updater_histmaker.cc	/^    const bst_float *cut;$/;"	m	struct:xgboost::tree::HistMaker::HistSet	file:
+cut	tree/updater_histmaker.cc	/^    const bst_float *cut;$/;"	m	struct:xgboost::tree::HistMaker::HistUnit	file:
+cut	tree/updater_histmaker.cc	/^    std::vector<bst_float> cut;$/;"	m	struct:xgboost::tree::HistMaker::ThreadWSpace	file:
+data	common/bitmap.h	/^  std::vector<uint32_t> data;$/;"	m	struct:xgboost::common::BitMap
+data	common/group_data.h	/^  std::vector<ValueType> &data;$/;"	m	struct:xgboost::common::ParallelGroupBuilder
+data	common/quantile.h	/^  Entry *data;$/;"	m	struct:xgboost::common::GKSummary
+data	common/quantile.h	/^  Entry *data;$/;"	m	struct:xgboost::common::WQSummary
+data	common/quantile.h	/^  std::vector<Entry> data;$/;"	m	class:xgboost::common::QuantileSketchTemplate
+data	data/data.cc	/^namespace data {$/;"	n	namespace:xgboost	file:
+data	data/simple_csr_source.cc	/^namespace data {$/;"	n	namespace:xgboost	file:
+data	data/simple_csr_source.h	/^namespace data {$/;"	n	namespace:xgboost
+data	data/simple_dmatrix.cc	/^namespace data {$/;"	n	namespace:xgboost	file:
+data	data/simple_dmatrix.h	/^namespace data {$/;"	n	namespace:xgboost
+data	data/sparse_batch_page.h	/^  std::vector<SparseBatch::Entry> data;$/;"	m	class:xgboost::data::SparsePage
+data	data/sparse_batch_page.h	/^namespace data {$/;"	n	namespace:xgboost
+data	data/sparse_page_dmatrix.cc	/^namespace data {$/;"	n	namespace:xgboost	file:
+data	data/sparse_page_dmatrix.h	/^namespace data {$/;"	n	namespace:xgboost
+data	data/sparse_page_raw_format.cc	/^namespace data {$/;"	n	namespace:xgboost	file:
+data	data/sparse_page_source.cc	/^namespace data {$/;"	n	namespace:xgboost	file:
+data	data/sparse_page_source.h	/^namespace data {$/;"	n	namespace:xgboost
+data	tree/updater_histmaker.cc	/^    TStats *data;$/;"	m	struct:xgboost::tree::HistMaker::HistUnit	file:
+data	tree/updater_histmaker.cc	/^    std::vector<TStats> data;$/;"	m	struct:xgboost::tree::HistMaker::HistSet	file:
+data_	common/thread_local.h	/^  std::vector<T*> data_;$/;"	m	class:xgboost::common::ThreadLocalStore
+data_ptr_	data/simple_dmatrix.h	/^    size_t data_ptr_;$/;"	m	struct:xgboost::data::SimpleDMatrix::ColBatchIter
+default_direction	tree/param.h	/^  int default_direction;$/;"	m	struct:xgboost::tree::TrainParam
+default_left	tree/param.h	/^  inline bool default_left() const {$/;"	f	struct:xgboost::tree::SplitEntry
+disk_offset_	data/sparse_page_raw_format.cc	/^  std::vector<size_t> disk_offset_;$/;"	m	class:xgboost::data::SparsePageRawFormat	file:
+dmlc	data/data.cc	/^namespace dmlc {$/;"	n	file:
+dmlc	gbm/gbm.cc	/^namespace dmlc {$/;"	n	file:
+dmlc	metric/metric.cc	/^namespace dmlc {$/;"	n	file:
+dmlc	objective/objective.cc	/^namespace dmlc {$/;"	n	file:
+dmlc	tree/tree_updater.cc	/^namespace dmlc {$/;"	n	file:
+dsplit	cli_main.cc	/^  int dsplit;$/;"	m	struct:xgboost::CLIParam	file:
+dsplit	learner.cc	/^  int dsplit;$/;"	m	struct:xgboost::LearnerTrainParam	file:
+dump_stats	cli_main.cc	/^  int dump_stats;$/;"	m	struct:xgboost::CLIParam	file:
+error_msg_	metric/multiclass_metric.cc	/^  const char *error_msg_;$/;"	m	struct:xgboost::metric::EvalMClassBase	file:
+eval_data_names	cli_main.cc	/^  std::vector<std::string> eval_data_names;$/;"	m	struct:xgboost::CLIParam	file:
+eval_data_paths	cli_main.cc	/^  std::vector<std::string> eval_data_paths;$/;"	m	struct:xgboost::CLIParam	file:
+eval_train	cli_main.cc	/^  bool eval_train;$/;"	m	struct:xgboost::CLIParam	file:
+feat2workindex	tree/updater_histmaker.cc	/^  std::vector<int> feat2workindex;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+feat_helper	tree/updater_histmaker.cc	/^  BaseMaker::FMetaHelper feat_helper;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+feat_index	gbm/gblinear.cc	/^  std::vector<bst_uint> feat_index;$/;"	m	class:xgboost::gbm::GBLinear	file:
+feat_index	tree/updater_colmaker.cc	/^    std::vector<bst_uint> feat_index;$/;"	m	struct:xgboost::tree::ColMaker::Builder	file:
+fi	common/config.h	/^  std::ifstream fi;$/;"	m	class:xgboost::common::ConfigIterator
+fi_	data/sparse_page_dmatrix.h	/^    std::unique_ptr<dmlc::SeekStream> fi_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+fi_	data/sparse_page_source.h	/^  std::unique_ptr<dmlc::SeekStream> fi_;$/;"	m	class:xgboost::data::SparsePageSource
+fin	common/config.h	/^  std::istream &fin;$/;"	m	class:xgboost::common::ConfigStreamReader
+first_fvalue	tree/updater_colmaker.cc	/^    float  first_fvalue;$/;"	m	struct:xgboost::tree::ColMaker::ThreadEntry	file:
+fix_list_weight	objective/rank_obj.cc	/^  float fix_list_weight;$/;"	m	struct:xgboost::obj::LambdaRankParam	file:
+fminmax	tree/updater_basemaker-inl.h	/^    std::vector<bst_float> fminmax;$/;"	m	struct:xgboost::tree::BaseMaker::FMetaHelper
+format_	data/sparse_page_dmatrix.h	/^    std::unique_ptr<SparsePage::Format> format_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+format_	data/sparse_page_source.h	/^  std::unique_ptr<SparsePage::Format> format_;$/;"	m	class:xgboost::data::SparsePageSource
+fp	common/base64.h	/^  dmlc::Stream *fp;$/;"	m	class:xgboost::common::Base64OutStream
+freal_set	tree/updater_histmaker.cc	/^  std::vector<bst_uint> freal_set;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+fwork_set	tree/updater_histmaker.cc	/^  std::vector<bst_uint> fwork_set;$/;"	m	class:xgboost::tree::HistMaker	file:
+gbm	gbm/gblinear.cc	/^namespace gbm {$/;"	n	namespace:xgboost	file:
+gbm	gbm/gbm.cc	/^namespace gbm {$/;"	n	namespace:xgboost	file:
+gbm	gbm/gbtree.cc	/^namespace gbm {$/;"	n	namespace:xgboost	file:
+get_nthread	tree/updater_basemaker-inl.h	/^  inline static int get_nthread() {$/;"	f	class:xgboost::tree::BaseMaker
+gpair_	learner.cc	/^  std::vector<bst_gpair> gpair_;$/;"	m	class:xgboost::LearnerImpl	file:
+hist	tree/updater_histmaker.cc	/^    typename HistMaker<TStats>::HistUnit hist;$/;"	m	struct:xgboost::tree::CQHistMaker::HistEntry	file:
+histred	tree/updater_histmaker.cc	/^  rabit::Reducer<TStats, TStats::Reduce> histred;$/;"	m	class:xgboost::tree::HistMaker	file:
+hits	objective/rank_obj.cc	/^    float hits;$/;"	m	struct:xgboost::obj::LambdaRankObjMAP::MAPStats	file:
+hset	tree/updater_histmaker.cc	/^    std::vector<HistSet> hset;$/;"	m	struct:xgboost::tree::HistMaker::ThreadWSpace	file:
+index_set_	data/sparse_page_dmatrix.h	/^    std::vector<bst_uint> index_set_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+initialized_	c_api/c_api.cc	/^  bool initialized_;$/;"	m	class:xgboost::Booster	file:
+inqueue	common/quantile.h	/^  typename Summary::Queue inqueue;$/;"	m	class:xgboost::common::QuantileSketchTemplate
+istart	tree/updater_histmaker.cc	/^    unsigned istart;$/;"	m	struct:xgboost::tree::CQHistMaker::HistEntry	file:
+kBufferSize	common/base64.h	/^  static const size_t kBufferSize = 256;$/;"	m	class:xgboost::common::Base64OutStream
+kDump2Text	cli_main.cc	/^  kDump2Text = 1,$/;"	e	enum:xgboost::CLITask	file:
+kMagic	data/simple_csr_source.h	/^  static const int kMagic = 0xffffab01;$/;"	m	class:xgboost::data::SimpleCSRSource
+kMagic	data/sparse_page_source.h	/^  static const int kMagic = 0xffffab02;$/;"	m	class:xgboost::data::SparsePageSource
+kMaxRowPerBatch	data/sparse_page_dmatrix.h	/^  static const size_t kMaxRowPerBatch = 64UL << 10UL;$/;"	m	class:xgboost::data::SparsePageDMatrix
+kPageSize	data/sparse_page_dmatrix.h	/^  static const size_t kPageSize = 256UL << 20UL;$/;"	m	class:xgboost::data::SparsePageDMatrix
+kPageSize	data/sparse_page_source.h	/^  static const size_t kPageSize = 32UL << 20UL;$/;"	m	class:xgboost::data::SparsePageSource
+kPredict	cli_main.cc	/^  kPredict = 2$/;"	e	enum:xgboost::CLITask	file:
+kRandSeedMagic	learner.cc	/^  static const int kRandSeedMagic = 127;$/;"	m	class:xgboost::LearnerImpl	file:
+kSimpleStats	tree/param.h	/^  static const int kSimpleStats = 1;$/;"	m	struct:xgboost::tree::GradStats
+kStrictCheck	common/base64.h	/^  static const bool kStrictCheck = false;$/;"	m	class:xgboost::common::Base64InStream
+kTrain	cli_main.cc	/^  kTrain = 0,$/;"	e	enum:xgboost::CLITask	file:
+label	objective/rank_obj.cc	/^    float label;$/;"	m	struct:xgboost::obj::LambdaRankObj::ListEntry	file:
+last_error	c_api/c_api_error.cc	/^  std::string last_error;$/;"	m	struct:XGBAPIErrorEntry	file:
+last_fvalue	tree/updater_basemaker-inl.h	/^    bst_float last_fvalue;$/;"	m	struct:xgboost::tree::BaseMaker::SketchEntry
+last_fvalue	tree/updater_colmaker.cc	/^    float  last_fvalue;$/;"	m	struct:xgboost::tree::ColMaker::ThreadEntry	file:
+learner	c_api/c_api.cc	/^  inline Learner* learner() {$/;"	f	class:xgboost::Booster
+learner_	c_api/c_api.cc	/^  std::unique_ptr<Learner> learner_;$/;"	m	class:xgboost::Booster	file:
+learning_rate	gbm/gblinear.cc	/^  float learning_rate;$/;"	m	struct:xgboost::gbm::GBLinearTrainParam	file:
+learning_rate	tree/param.h	/^  float learning_rate;$/;"	m	struct:xgboost::tree::TrainParam
+level	common/quantile.h	/^  std::vector<Summary> level;$/;"	m	class:xgboost::common::QuantileSketchTemplate
+limit_size	common/quantile.h	/^  size_t limit_size;$/;"	m	class:xgboost::common::QuantileSketchTemplate
+load_all_	data/sparse_page_dmatrix.h	/^    bool set_load_all_, load_all_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+loss_chg	tree/param.h	/^  bst_float loss_chg;$/;"	m	struct:xgboost::tree::SplitEntry
+main	cli_main.cc	/^int main(int argc, char *argv[]) {$/;"	f
+mat_	learner.cc	/^    const DMatrix* mat_;$/;"	m	struct:xgboost::LearnerImpl::CacheEntry	file:
+max	common/random.h	/^  inline static constexpr result_type max() {$/;"	f	class:xgboost::common::CustomGlobalRandomEngine
+max_delta_step	objective/regression_obj.cc	/^  float max_delta_step;$/;"	m	struct:xgboost::obj::PoissonRegressionParam	file:
+max_delta_step	tree/param.h	/^  float max_delta_step;$/;"	m	struct:xgboost::tree::TrainParam
+max_depth	tree/param.h	/^  int max_depth;$/;"	m	struct:xgboost::tree::TrainParam
+max_row_perbatch	learner.cc	/^  size_t max_row_perbatch;$/;"	m	struct:xgboost::LearnerTrainParam	file:
+max_sketch_size	tree/param.h	/^  inline unsigned max_sketch_size() const {$/;"	f	struct:xgboost::tree::TrainParam
+metric	metric/elementwise_metric.cc	/^namespace metric {$/;"	n	namespace:xgboost	file:
+metric	metric/metric.cc	/^namespace metric {$/;"	n	namespace:xgboost	file:
+metric	metric/multiclass_metric.cc	/^namespace metric {$/;"	n	namespace:xgboost	file:
+metric	metric/rank_metric.cc	/^namespace metric {$/;"	n	namespace:xgboost	file:
+min	common/random.h	/^  inline static constexpr result_type min() {$/;"	f	class:xgboost::common::CustomGlobalRandomEngine
+min_child_weight	tree/param.h	/^  float min_child_weight;$/;"	m	struct:xgboost::tree::TrainParam
+min_index	data/sparse_batch_page.h	/^  bst_uint min_index;$/;"	m	class:xgboost::data::SparsePage
+min_split_loss	tree/param.h	/^  float min_split_loss;$/;"	m	struct:xgboost::tree::TrainParam
+minus_	metric/rank_metric.cc	/^  bool minus_;$/;"	m	struct:xgboost::metric::EvalRankList	file:
+model	gbm/gblinear.cc	/^  Model model;$/;"	m	class:xgboost::gbm::GBLinear	file:
+model_dir	cli_main.cc	/^  std::string model_dir;$/;"	m	struct:xgboost::CLIParam	file:
+model_in	cli_main.cc	/^  std::string model_in;$/;"	m	struct:xgboost::CLIParam	file:
+model_out	cli_main.cc	/^  std::string model_out;$/;"	m	struct:xgboost::CLIParam	file:
+mparam	gbm/gbtree.cc	/^  GBTreeModelParam mparam;$/;"	m	class:xgboost::gbm::GBTree	file:
+mparam	learner.cc	/^  LearnerModelParam mparam;$/;"	m	class:xgboost::LearnerImpl	file:
+mutex_	common/thread_local.h	/^  std::mutex mutex_;$/;"	m	class:xgboost::common::ThreadLocalStore
+name	common/config.h	/^  inline const char *name(void) const {$/;"	f	class:xgboost::common::ConfigReaderBase
+name_	metric/rank_metric.cc	/^  std::string name_;$/;"	m	struct:xgboost::metric::EvalAMS	file:
+name_	metric/rank_metric.cc	/^  std::string name_;$/;"	m	struct:xgboost::metric::EvalRankList	file:
+name_dump	cli_main.cc	/^  std::string name_dump;$/;"	m	struct:xgboost::CLIParam	file:
+name_fmap	cli_main.cc	/^  std::string name_fmap;$/;"	m	struct:xgboost::CLIParam	file:
+name_gbm_	learner.cc	/^  std::string name_gbm_;$/;"	m	class:xgboost::LearnerImpl	file:
+name_obj_	learner.cc	/^  std::string name_obj_;$/;"	m	class:xgboost::LearnerImpl	file:
+name_pred	cli_main.cc	/^  std::string name_pred;$/;"	m	struct:xgboost::CLIParam	file:
+need_backward_search	tree/param.h	/^  inline bool need_backward_search(float col_density, bool indicator) const {$/;"	f	struct:xgboost::tree::TrainParam
+need_forward_search	tree/param.h	/^  inline bool need_forward_search(float col_density, bool indicator) const {$/;"	f	struct:xgboost::tree::TrainParam
+need_prune	tree/param.h	/^  inline bool need_prune(double loss_chg, int depth) const {$/;"	f	struct:xgboost::tree::TrainParam
+neg_grad	tree/updater_skmaker.cc	/^    double neg_grad;$/;"	m	struct:xgboost::tree::SketchMaker::SKStats	file:
+neg_index	objective/rank_obj.cc	/^    unsigned neg_index;$/;"	m	struct:xgboost::obj::LambdaRankObj::LambdaPair	file:
+next_goal	tree/updater_basemaker-inl.h	/^    double next_goal;$/;"	m	struct:xgboost::tree::BaseMaker::SketchEntry
+nlevel	common/quantile.h	/^  size_t nlevel;$/;"	m	class:xgboost::common::QuantileSketchTemplate
+node2workindex	tree/updater_basemaker-inl.h	/^  std::vector<int> node2workindex;$/;"	m	class:xgboost::tree::BaseMaker
+node_stats	tree/updater_histmaker.cc	/^  std::vector<TStats> node_stats;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+node_stats	tree/updater_skmaker.cc	/^  std::vector<SKStats> node_stats;$/;"	m	class:xgboost::tree::SketchMaker	file:
+noexcept	learner.cc	/^      noexcept(false) {$/;"	f	class:xgboost::LearnerImpl
+nthread	gbm/gbtree.cc	/^  int nthread;$/;"	m	struct:xgboost::gbm::GBTreeTrainParam	file:
+nthread	tree/param.h	/^  int nthread;$/;"	m	struct:xgboost::tree::TrainParam
+nthread	tree/updater_colmaker.cc	/^    int nthread;$/;"	m	struct:xgboost::tree::ColMaker::Builder	file:
+ntree_limit	cli_main.cc	/^  int ntree_limit;$/;"	m	struct:xgboost::CLIParam	file:
+num_class	learner.cc	/^  int num_class;$/;"	m	struct:xgboost::LearnerModelParam	file:
+num_class	objective/multiclass_obj.cc	/^  int num_class;$/;"	m	struct:xgboost::obj::SoftmaxMultiClassParam	file:
+num_feature	gbm/gblinear.cc	/^  unsigned num_feature;$/;"	m	struct:xgboost::gbm::GBLinearModelParam	file:
+num_feature	gbm/gbtree.cc	/^  int num_feature;$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+num_feature	learner.cc	/^  unsigned num_feature;$/;"	m	struct:xgboost::LearnerModelParam	file:
+num_output_group	gbm/gblinear.cc	/^  int num_output_group;$/;"	m	struct:xgboost::gbm::GBLinearModelParam	file:
+num_output_group	gbm/gbtree.cc	/^  int num_output_group;$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+num_pairsample	objective/rank_obj.cc	/^  int num_pairsample;$/;"	m	struct:xgboost::obj::LambdaRankParam	file:
+num_parallel_tree	gbm/gbtree.cc	/^  int num_parallel_tree;$/;"	m	struct:xgboost::gbm::GBTreeTrainParam	file:
+num_pbuffer	gbm/gbtree.cc	/^  size_t num_pbuffer;$/;"	m	class:xgboost::gbm::GBTree	file:
+num_pbuffer_deprecated	gbm/gbtree.cc	/^  int64_t num_pbuffer_deprecated;$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+num_prev	common/base64.h	/^  int num_prev;$/;"	m	class:xgboost::common::Base64InStream
+num_roots	gbm/gbtree.cc	/^  int num_roots;$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+num_round	cli_main.cc	/^  int num_round;$/;"	m	struct:xgboost::CLIParam	file:
+num_row_	learner.cc	/^    size_t num_row_;$/;"	m	struct:xgboost::LearnerImpl::CacheEntry	file:
+num_trees	gbm/gbtree.cc	/^  int num_trees;$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+obj	objective/multiclass_obj.cc	/^namespace obj {$/;"	n	namespace:xgboost	file:
+obj	objective/objective.cc	/^namespace obj {$/;"	n	namespace:xgboost	file:
+obj	objective/rank_obj.cc	/^namespace obj {$/;"	n	namespace:xgboost	file:
+obj	objective/regression_obj.cc	/^namespace obj {$/;"	n	namespace:xgboost	file:
+offset	data/sparse_batch_page.h	/^  std::vector<size_t> offset;$/;"	m	class:xgboost::data::SparsePage
+operator <	common/quantile.h	/^      inline bool operator<(const QEntry &b) const {$/;"	f	struct:xgboost::common::WQSummary::Queue::QEntry
+operator []	gbm/gblinear.cc	/^    inline const float* operator[](size_t i) const {$/;"	f	class:xgboost::gbm::GBLinear::Model
+operator []	gbm/gblinear.cc	/^    inline float* operator[](size_t i) {$/;"	f	class:xgboost::gbm::GBLinear::Model
+operator []	tree/updater_histmaker.cc	/^    inline HistUnit operator[](size_t fid) {$/;"	f	struct:xgboost::tree::HistMaker::HistSet
+opt_dense_col	tree/param.h	/^  float opt_dense_col;$/;"	m	struct:xgboost::tree::TrainParam
+out_	data/sparse_page_dmatrix.h	/^    ColBatch out_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+out_buf	common/base64.h	/^  std::string out_buf;$/;"	m	class:xgboost::common::Base64OutStream
+output_prob_	objective/multiclass_obj.cc	/^  bool output_prob_;$/;"	m	class:xgboost::obj::SoftmaxMultiClassObj	file:
+override	data/simple_csr_source.h	/^  bool Next() override;$/;"	m	class:xgboost::data::SimpleCSRSource
+override	data/simple_csr_source.h	/^  const RowBatch &Value() const override;$/;"	m	class:xgboost::data::SimpleCSRSource
+override	data/simple_csr_source.h	/^  void BeforeFirst() override;$/;"	m	class:xgboost::data::SimpleCSRSource
+override	data/simple_dmatrix.h	/^                     size_t max_row_perbatch) override;$/;"	m	class:xgboost::data::SimpleDMatrix
+override	data/simple_dmatrix.h	/^    bool Next() override;$/;"	m	struct:xgboost::data::SimpleDMatrix::ColBatchIter
+override	data/simple_dmatrix.h	/^  bool SingleColBlock() const override;$/;"	m	class:xgboost::data::SimpleDMatrix
+override	data/simple_dmatrix.h	/^  dmlc::DataIter<ColBatch>* ColIterator() override;$/;"	m	class:xgboost::data::SimpleDMatrix
+override	data/simple_dmatrix.h	/^  dmlc::DataIter<ColBatch>* ColIterator(const std::vector<bst_uint>& fset) override;$/;"	m	class:xgboost::data::SimpleDMatrix
+override	data/sparse_page_dmatrix.h	/^                     size_t max_row_perbatch) override;$/;"	m	class:xgboost::data::SparsePageDMatrix
+override	data/sparse_page_dmatrix.h	/^    bool Next() override;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+override	data/sparse_page_dmatrix.h	/^  dmlc::DataIter<ColBatch>* ColIterator() override;$/;"	m	class:xgboost::data::SparsePageDMatrix
+override	data/sparse_page_dmatrix.h	/^  dmlc::DataIter<ColBatch>* ColIterator(const std::vector<bst_uint>& fset) override;$/;"	m	class:xgboost::data::SparsePageDMatrix
+override	data/sparse_page_source.h	/^  bool Next() override;$/;"	m	class:xgboost::data::SparsePageSource
+override	data/sparse_page_source.h	/^  const RowBatch& Value() const override;$/;"	m	class:xgboost::data::SparsePageSource
+override	data/sparse_page_source.h	/^  void BeforeFirst() override;$/;"	m	class:xgboost::data::SparsePageSource
+pad_32bit	gbm/gbtree.cc	/^  int pad_32bit;$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+page_	data/sparse_page_dmatrix.h	/^    SparsePage* page_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+page_	data/sparse_page_source.h	/^  SparsePage *page_;$/;"	m	class:xgboost::data::SparsePageSource
+parallel_option	tree/param.h	/^  int parallel_option;$/;"	m	struct:xgboost::tree::TrainParam
+param	gbm/gblinear.cc	/^    GBLinearModelParam param;$/;"	m	class:xgboost::gbm::GBLinear::Model	file:
+param	gbm/gblinear.cc	/^  GBLinearTrainParam param;$/;"	m	class:xgboost::gbm::GBLinear	file:
+param	tree/updater_basemaker-inl.h	/^  TrainParam param;$/;"	m	class:xgboost::tree::BaseMaker
+param	tree/updater_colmaker.cc	/^    const TrainParam& param;$/;"	m	struct:xgboost::tree::ColMaker::Builder	file:
+param	tree/updater_colmaker.cc	/^  TrainParam param;$/;"	m	class:xgboost::tree::ColMaker	file:
+param	tree/updater_colmaker.cc	/^  TrainParam param;$/;"	m	class:xgboost::tree::DistColMaker	file:
+param	tree/updater_prune.cc	/^  TrainParam param;$/;"	m	class:xgboost::tree::TreePruner	file:
+param	tree/updater_refresh.cc	/^  TrainParam param;$/;"	m	class:xgboost::tree::TreeRefresher	file:
+param_	objective/multiclass_obj.cc	/^  SoftmaxMultiClassParam param_;$/;"	m	class:xgboost::obj::SoftmaxMultiClassObj	file:
+param_	objective/rank_obj.cc	/^  LambdaRankParam param_;$/;"	m	class:xgboost::obj::LambdaRankObj	file:
+param_	objective/regression_obj.cc	/^  PoissonRegressionParam param_;$/;"	m	class:xgboost::obj::PoissonRegression	file:
+param_	objective/regression_obj.cc	/^  RegLossParam param_;$/;"	m	class:xgboost::obj::RegLossObj	file:
+pos_grad	tree/updater_skmaker.cc	/^    double pos_grad;$/;"	m	struct:xgboost::tree::SketchMaker::SKStats	file:
+pos_index	objective/rank_obj.cc	/^    unsigned pos_index;$/;"	m	struct:xgboost::obj::LambdaRankObj::LambdaPair	file:
+position	tree/updater_basemaker-inl.h	/^  std::vector<int> position;$/;"	m	class:xgboost::tree::BaseMaker
+position	tree/updater_colmaker.cc	/^    std::vector<int> position;$/;"	m	struct:xgboost::tree::ColMaker::Builder	file:
+pred	objective/rank_obj.cc	/^    float pred;$/;"	m	struct:xgboost::obj::LambdaRankObj::ListEntry	file:
+pred_buffer	gbm/gbtree.cc	/^  std::vector<float> pred_buffer;$/;"	m	class:xgboost::gbm::GBTree	file:
+pred_buffer_size_	learner.cc	/^  size_t pred_buffer_size_;$/;"	m	class:xgboost::LearnerImpl	file:
+pred_counter	gbm/gbtree.cc	/^  std::vector<unsigned> pred_counter;$/;"	m	class:xgboost::gbm::GBTree	file:
+pred_margin	cli_main.cc	/^  bool pred_margin;$/;"	m	struct:xgboost::CLIParam	file:
+preds_	learner.cc	/^  std::vector<float> preds_;$/;"	m	class:xgboost::LearnerImpl	file:
+prefetcher_	data/sparse_page_dmatrix.h	/^    dmlc::ThreadedIter<SparsePage> prefetcher_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+prefetcher_	data/sparse_page_source.h	/^  dmlc::ThreadedIter<SparsePage> prefetcher_;$/;"	m	class:xgboost::data::SparsePageSource
+prob_buffer_row	learner.cc	/^  float prob_buffer_row;$/;"	m	struct:xgboost::LearnerTrainParam	file:
+pruner	tree/updater_colmaker.cc	/^  std::unique_ptr<TreeUpdater> pruner;$/;"	m	class:xgboost::tree::DistColMaker	file:
+qexpand	tree/updater_basemaker-inl.h	/^  std::vector<int> qexpand;$/;"	m	class:xgboost::tree::BaseMaker
+qexpand_	tree/updater_colmaker.cc	/^    std::vector<int> qexpand_;$/;"	m	struct:xgboost::tree::ColMaker::Builder	file:
+qtail	common/quantile.h	/^    size_t qtail;$/;"	m	struct:xgboost::common::GKSummary::Queue
+qtail	common/quantile.h	/^    size_t qtail;$/;"	m	struct:xgboost::common::WQSummary::Queue
+queue	common/quantile.h	/^    std::vector<DType> queue;$/;"	m	struct:xgboost::common::GKSummary::Queue
+queue	common/quantile.h	/^    std::vector<QEntry> queue;$/;"	m	struct:xgboost::common::WQSummary::Queue
+ratio_	metric/rank_metric.cc	/^  float ratio_;$/;"	m	struct:xgboost::metric::EvalAMS	file:
+read_len_	common/base64.h	/^  size_t read_len_;$/;"	m	class:xgboost::common::StreamBufferReader
+read_ptr_	common/base64.h	/^  size_t read_ptr_;$/;"	m	class:xgboost::common::StreamBufferReader
+reader_	common/base64.h	/^  StreamBufferReader reader_;$/;"	m	class:xgboost::common::Base64InStream
+reducer	tree/updater_colmaker.cc	/^    rabit::Reducer<SplitEntry, SplitEntry::Reduce> reducer;$/;"	m	struct:xgboost::tree::DistColMaker::Builder	file:
+reducer	tree/updater_refresh.cc	/^  rabit::Reducer<TStats, TStats::Reduce> reducer;$/;"	m	class:xgboost::tree::TreeRefresher	file:
+reg_alpha	gbm/gblinear.cc	/^  float reg_alpha;$/;"	m	struct:xgboost::gbm::GBLinearTrainParam	file:
+reg_alpha	tree/param.h	/^  float reg_alpha;$/;"	m	struct:xgboost::tree::TrainParam
+reg_lambda	gbm/gblinear.cc	/^  float reg_lambda;$/;"	m	struct:xgboost::gbm::GBLinearTrainParam	file:
+reg_lambda	tree/param.h	/^  float reg_lambda;$/;"	m	struct:xgboost::tree::TrainParam
+reg_lambda_bias	gbm/gblinear.cc	/^  float reg_lambda_bias;$/;"	m	struct:xgboost::gbm::GBLinearTrainParam	file:
+reserved	gbm/gblinear.cc	/^  int reserved[32];$/;"	m	struct:xgboost::gbm::GBLinearModelParam	file:
+reserved	gbm/gbtree.cc	/^  int reserved[32];$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+reserved	learner.cc	/^  int reserved[31];$/;"	m	struct:xgboost::LearnerModelParam	file:
+result_type	common/random.h	/^  typedef size_t result_type;$/;"	t	class:xgboost::common::CustomGlobalRandomEngine
+ret_str	c_api/c_api.cc	/^  std::string ret_str;$/;"	m	struct:XGBAPIThreadLocalEntry	file:
+ret_vec_charp	c_api/c_api.cc	/^  std::vector<const char *> ret_vec_charp;$/;"	m	struct:XGBAPIThreadLocalEntry	file:
+ret_vec_float	c_api/c_api.cc	/^  std::vector<float> ret_vec_float;$/;"	m	struct:XGBAPIThreadLocalEntry	file:
+ret_vec_str	c_api/c_api.cc	/^  std::vector<std::string> ret_vec_str;$/;"	m	struct:XGBAPIThreadLocalEntry	file:
+rindex	objective/rank_obj.cc	/^    unsigned rindex;$/;"	m	struct:xgboost::obj::LambdaRankObj::ListEntry	file:
+rmax	common/quantile.h	/^    RType rmax;$/;"	m	struct:xgboost::common::GKSummary::Entry
+rmax	common/quantile.h	/^    RType rmax;$/;"	m	struct:xgboost::common::WQSummary::Entry
+rmax_prev	common/quantile.h	/^    inline RType rmax_prev() const {$/;"	f	struct:xgboost::common::WQSummary::Entry
+rmin	common/quantile.h	/^    RType rmin;$/;"	m	struct:xgboost::common::GKSummary::Entry
+rmin	common/quantile.h	/^    RType rmin;$/;"	m	struct:xgboost::common::WQSummary::Entry
+rmin	tree/updater_basemaker-inl.h	/^    double rmin, wmin;$/;"	m	struct:xgboost::tree::BaseMaker::SketchEntry
+rmin_next	common/quantile.h	/^    inline RType rmin_next() const {$/;"	f	struct:xgboost::common::WQSummary::Entry
+root_gain	tree/updater_colmaker.cc	/^    bst_float root_gain;$/;"	m	struct:xgboost::tree::ColMaker::NodeEntry	file:
+row_data_	data/simple_csr_source.h	/^  std::vector<RowBatch::Entry> row_data_;$/;"	m	class:xgboost::data::SimpleCSRSource
+row_ptr_	data/simple_csr_source.h	/^  std::vector<size_t> row_ptr_;$/;"	m	class:xgboost::data::SimpleCSRSource
+rptr	common/group_data.h	/^  std::vector<SizeType> &rptr;$/;"	m	struct:xgboost::common::ParallelGroupBuilder
+rptr	tree/updater_histmaker.cc	/^    const unsigned *rptr;$/;"	m	struct:xgboost::tree::HistMaker::HistSet	file:
+rptr	tree/updater_histmaker.cc	/^    std::vector<unsigned> rptr;$/;"	m	struct:xgboost::tree::HistMaker::ThreadWSpace	file:
+s_buf	common/config.h	/^  std::string s_name, s_val, s_buf;$/;"	m	class:xgboost::common::ConfigReaderBase
+s_name	common/config.h	/^  std::string s_name, s_val, s_buf;$/;"	m	class:xgboost::common::ConfigReaderBase
+s_val	common/config.h	/^  std::string s_name, s_val, s_buf;$/;"	m	class:xgboost::common::ConfigReaderBase
+save_period	cli_main.cc	/^  int save_period;$/;"	m	struct:xgboost::CLIParam	file:
+scale_pos_weight	objective/regression_obj.cc	/^  float scale_pos_weight;$/;"	m	struct:xgboost::obj::RegLossParam	file:
+seed	learner.cc	/^  int seed;$/;"	m	struct:xgboost::LearnerTrainParam	file:
+seed_per_iteration	learner.cc	/^  bool seed_per_iteration;$/;"	m	struct:xgboost::LearnerTrainParam	file:
+set_index_set_	data/sparse_page_dmatrix.h	/^    std::vector<bst_uint> set_index_set_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+set_load_all_	data/sparse_page_dmatrix.h	/^    bool set_load_all_, load_all_;$/;"	m	class:xgboost::data::SparsePageDMatrix::ColPageIter
+set_stream	common/base64.h	/^  inline void set_stream(dmlc::Stream *stream) {$/;"	f	class:xgboost::common::StreamBufferReader
+silent	cli_main.cc	/^  int silent;$/;"	m	struct:xgboost::CLIParam	file:
+silent	tree/param.h	/^  bool silent;$/;"	m	struct:xgboost::tree::TrainParam
+sindex	tree/param.h	/^  unsigned sindex;$/;"	m	struct:xgboost::tree::SplitEntry
+size	common/quantile.h	/^  size_t size;$/;"	m	struct:xgboost::common::GKSummary
+size	common/quantile.h	/^  size_t size;$/;"	m	struct:xgboost::common::WQSummary
+size	tree/updater_histmaker.cc	/^    unsigned size;$/;"	m	struct:xgboost::tree::HistMaker::HistUnit	file:
+size_leaf_vector	gbm/gbtree.cc	/^  int size_leaf_vector;$/;"	m	struct:xgboost::gbm::GBTreeModelParam	file:
+size_leaf_vector	tree/param.h	/^  int size_leaf_vector;$/;"	m	struct:xgboost::tree::TrainParam
+sketch	tree/updater_basemaker-inl.h	/^    common::WXQuantileSketch<bst_float, bst_float> *sketch;$/;"	m	struct:xgboost::tree::BaseMaker::SketchEntry
+sketch_eps	tree/param.h	/^  float sketch_eps;$/;"	m	struct:xgboost::tree::TrainParam
+sketch_ratio	tree/param.h	/^  float sketch_ratio;$/;"	m	struct:xgboost::tree::TrainParam
+sketch_reducer	tree/updater_skmaker.cc	/^  rabit::SerializeReducer<WXQSketch::SummaryContainer> sketch_reducer;$/;"	m	class:xgboost::tree::SketchMaker	file:
+sketchs	tree/updater_histmaker.cc	/^  std::vector<common::WQuantileSketch<bst_float, bst_float> > sketchs;$/;"	m	class:xgboost::tree::QuantileHistMaker	file:
+sketchs	tree/updater_histmaker.cc	/^  std::vector<common::WXQuantileSketch<bst_float, bst_float> > sketchs;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+sketchs	tree/updater_skmaker.cc	/^  std::vector<common::WXQuantileSketch<bst_float, bst_float> > sketchs;$/;"	m	class:xgboost::tree::SketchMaker	file:
+snode	tree/updater_colmaker.cc	/^    std::vector<NodeEntry> snode;$/;"	m	struct:xgboost::tree::ColMaker::Builder	file:
+source_	data/simple_dmatrix.h	/^  std::unique_ptr<DataSource> source_;$/;"	m	class:xgboost::data::SimpleDMatrix
+source_	data/sparse_page_dmatrix.h	/^  std::unique_ptr<DataSource> source_;$/;"	m	class:xgboost::data::SparsePageDMatrix
+space	common/quantile.h	/^    std::vector<Entry> space;$/;"	m	struct:xgboost::common::QuantileSketchTemplate::SummaryContainer
+split_index	tree/param.h	/^  inline unsigned split_index() const {$/;"	f	struct:xgboost::tree::SplitEntry
+split_value	tree/param.h	/^  float split_value;$/;"	m	struct:xgboost::tree::SplitEntry
+sreducer	tree/updater_histmaker.cc	/^  rabit::SerializeReducer<WXQSketch::SummaryContainer> sreducer;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+sreducer	tree/updater_histmaker.cc	/^  rabit::SerializeReducer<WXQSketch::SummaryContainer> sreducer;$/;"	m	class:xgboost::tree::QuantileHistMaker	file:
+stats	tree/updater_colmaker.cc	/^    TStats stats;$/;"	m	struct:xgboost::tree::ColMaker::NodeEntry	file:
+stats	tree/updater_colmaker.cc	/^    TStats stats;$/;"	m	struct:xgboost::tree::ColMaker::ThreadEntry	file:
+stats_extra	tree/updater_colmaker.cc	/^    TStats stats_extra;$/;"	m	struct:xgboost::tree::ColMaker::ThreadEntry	file:
+stats_reducer	tree/updater_skmaker.cc	/^  rabit::Reducer<SKStats, SKStats::Reduce> stats_reducer;$/;"	m	class:xgboost::tree::SketchMaker	file:
+stemp	tree/updater_colmaker.cc	/^    std::vector< std::vector<ThreadEntry> > stemp;$/;"	m	struct:xgboost::tree::ColMaker::Builder	file:
+stream_	common/base64.h	/^  dmlc::Stream *stream_;$/;"	m	class:xgboost::common::StreamBufferReader
+strm_	common/io.h	/^  dmlc::Stream *strm_;$/;"	m	class:xgboost::common::PeekableInStream
+subsample	tree/param.h	/^  float subsample;$/;"	m	struct:xgboost::tree::TrainParam
+sum_grad	tree/param.h	/^  double sum_grad;$/;"	m	struct:xgboost::tree::GradStats
+sum_hess	tree/param.h	/^  double sum_hess;$/;"	m	struct:xgboost::tree::GradStats
+sum_hess	tree/updater_skmaker.cc	/^    double sum_hess;$/;"	m	struct:xgboost::tree::SketchMaker::SKStats	file:
+sum_total	tree/updater_basemaker-inl.h	/^    double sum_total;$/;"	m	struct:xgboost::tree::BaseMaker::SketchEntry
+summary_array	tree/updater_histmaker.cc	/^  std::vector<WXQSketch::SummaryContainer> summary_array;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+summary_array	tree/updater_histmaker.cc	/^  std::vector<WXQSketch::SummaryContainer> summary_array;$/;"	m	class:xgboost::tree::QuantileHistMaker	file:
+summary_array	tree/updater_skmaker.cc	/^  std::vector<WXQSketch::SummaryContainer> summary_array;$/;"	m	class:xgboost::tree::SketchMaker	file:
+syncher	tree/updater_prune.cc	/^  std::unique_ptr<TreeUpdater> syncher;$/;"	m	class:xgboost::tree::TreePruner	file:
+task	cli_main.cc	/^  int task;$/;"	m	struct:xgboost::CLIParam	file:
+temp	common/quantile.h	/^  SummaryContainer temp;$/;"	m	class:xgboost::common::QuantileSketchTemplate
+test_flag	learner.cc	/^  std::string test_flag;$/;"	m	struct:xgboost::LearnerTrainParam	file:
+test_path	cli_main.cc	/^  std::string test_path;$/;"	m	struct:xgboost::CLIParam	file:
+thread_col_ptr	tree/updater_histmaker.cc	/^  std::vector<std::vector<size_t> > thread_col_ptr;$/;"	m	class:xgboost::tree::QuantileHistMaker	file:
+thread_hist	tree/updater_histmaker.cc	/^  std::vector<std::vector<HistEntry> > thread_hist;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+thread_rptr	common/group_data.h	/^  std::vector<std::vector<SizeType> > &thread_rptr;$/;"	m	struct:xgboost::common::ParallelGroupBuilder
+thread_sketch	tree/updater_histmaker.cc	/^  std::vector<std::vector<BaseMaker::SketchEntry> > thread_sketch;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+thread_sketch	tree/updater_skmaker.cc	/^  std::vector<std::vector<SketchEntry> > thread_sketch;$/;"	m	class:xgboost::tree::SketchMaker	file:
+thread_stats	tree/updater_histmaker.cc	/^  std::vector<std::vector<TStats> > thread_stats;$/;"	m	class:xgboost::tree::CQHistMaker	file:
+thread_stats	tree/updater_skmaker.cc	/^  std::vector<std::vector<SKStats> > thread_stats;$/;"	m	class:xgboost::tree::SketchMaker	file:
+thread_temp	gbm/gbtree.cc	/^  std::vector<RegTree::FVec> thread_temp;$/;"	m	class:xgboost::gbm::GBTree	file:
+tmp_ch	common/base64.h	/^  int tmp_ch;$/;"	m	class:xgboost::common::Base64InStream
+tmp_gpair	c_api/c_api.cc	/^  std::vector<bst_gpair> tmp_gpair;$/;"	m	struct:XGBAPIThreadLocalEntry	file:
+tmp_thread_rptr	common/group_data.h	/^  std::vector<std::vector<SizeType> > tmp_thread_rptr;$/;"	m	struct:xgboost::common::ParallelGroupBuilder
+topn_	metric/rank_metric.cc	/^  unsigned topn_;$/;"	m	struct:xgboost::metric::EvalRankList	file:
+tparam	gbm/gbtree.cc	/^  GBTreeTrainParam tparam;$/;"	m	class:xgboost::gbm::GBTree	file:
+tparam	learner.cc	/^  LearnerTrainParam tparam;$/;"	m	class:xgboost::LearnerImpl	file:
+train_path	cli_main.cc	/^  std::string train_path;$/;"	m	struct:xgboost::CLIParam	file:
+tree	tree/param.h	/^namespace tree {$/;"	n	namespace:xgboost
+tree	tree/tree_model.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree	tree/tree_updater.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree	tree/updater_basemaker-inl.h	/^namespace tree {$/;"	n	namespace:xgboost
+tree	tree/updater_colmaker.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree	tree/updater_histmaker.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree	tree/updater_prune.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree	tree/updater_refresh.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree	tree/updater_skmaker.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree	tree/updater_sync.cc	/^namespace tree {$/;"	n	namespace:xgboost	file:
+tree_info	gbm/gbtree.cc	/^  std::vector<int> tree_info;$/;"	m	class:xgboost::gbm::GBTree	file:
+trees	gbm/gbtree.cc	/^  std::vector<std::unique_ptr<RegTree> > trees;$/;"	m	class:xgboost::gbm::GBTree	file:
+updater_seq	gbm/gbtree.cc	/^  std::string updater_seq;$/;"	m	struct:xgboost::gbm::GBTreeTrainParam	file:
+updaters	gbm/gbtree.cc	/^  std::vector<std::unique_ptr<TreeUpdater> > updaters;$/;"	m	class:xgboost::gbm::GBTree	file:
+val	common/config.h	/^  inline const char *val(void) const {$/;"	f	class:xgboost::common::ConfigReaderBase
+value	common/quantile.h	/^      DType value;$/;"	m	struct:xgboost::common::WQSummary::Queue::QEntry
+value	common/quantile.h	/^    DType value;$/;"	m	struct:xgboost::common::GKSummary::Entry
+value	common/quantile.h	/^    DType value;$/;"	m	struct:xgboost::common::WQSummary::Entry
+weight	common/quantile.h	/^      RType weight;$/;"	m	struct:xgboost::common::WQSummary::Queue::QEntry
+weight	gbm/gblinear.cc	/^    std::vector<float> weight;$/;"	m	class:xgboost::gbm::GBLinear::Model	file:
+weight	objective/rank_obj.cc	/^    float weight;$/;"	m	struct:xgboost::obj::LambdaRankObj::LambdaPair	file:
+weight	tree/updater_colmaker.cc	/^    float weight;$/;"	m	struct:xgboost::tree::ColMaker::NodeEntry	file:
+wmin	common/quantile.h	/^    RType wmin;$/;"	m	struct:xgboost::common::WQSummary::Entry
+wmin	tree/updater_basemaker-inl.h	/^    double rmin, wmin;$/;"	m	struct:xgboost::tree::BaseMaker::SketchEntry
+wspace	tree/updater_histmaker.cc	/^  ThreadWSpace wspace;$/;"	m	class:xgboost::tree::HistMaker	file:
+xgboost	c_api/c_api.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	cli_main.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	common/base64.h	/^namespace xgboost {$/;"	n
+xgboost	common/bitmap.h	/^namespace xgboost {$/;"	n
+xgboost	common/common.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	common/config.h	/^namespace xgboost {$/;"	n
+xgboost	common/group_data.h	/^namespace xgboost {$/;"	n
+xgboost	common/io.h	/^namespace xgboost {$/;"	n
+xgboost	common/math.h	/^namespace xgboost {$/;"	n
+xgboost	common/quantile.h	/^namespace xgboost {$/;"	n
+xgboost	common/random.h	/^namespace xgboost {$/;"	n
+xgboost	common/thread_local.h	/^namespace xgboost {$/;"	n
+xgboost	data/data.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	data/simple_csr_source.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	data/simple_csr_source.h	/^namespace xgboost {$/;"	n
+xgboost	data/simple_dmatrix.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	data/simple_dmatrix.h	/^namespace xgboost {$/;"	n
+xgboost	data/sparse_batch_page.h	/^namespace xgboost {$/;"	n
+xgboost	data/sparse_page_dmatrix.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	data/sparse_page_dmatrix.h	/^namespace xgboost {$/;"	n
+xgboost	data/sparse_page_raw_format.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	data/sparse_page_source.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	data/sparse_page_source.h	/^namespace xgboost {$/;"	n
+xgboost	gbm/gblinear.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	gbm/gbm.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	gbm/gbtree.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	learner.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	logging.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	metric/elementwise_metric.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	metric/metric.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	metric/multiclass_metric.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	metric/rank_metric.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	objective/multiclass_obj.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	objective/objective.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	objective/rank_obj.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	objective/regression_obj.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/param.h	/^namespace xgboost {$/;"	n
+xgboost	tree/tree_model.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/tree_updater.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/updater_basemaker-inl.h	/^namespace xgboost {$/;"	n
+xgboost	tree/updater_colmaker.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/updater_histmaker.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/updater_prune.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/updater_refresh.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/updater_skmaker.cc	/^namespace xgboost {$/;"	n	file:
+xgboost	tree/updater_sync.cc	/^namespace xgboost {$/;"	n	file:
+~ColPageIter	data/sparse_page_dmatrix.cc	/^SparsePageDMatrix::ColPageIter::~ColPageIter() {$/;"	f	class:xgboost::data::SparsePageDMatrix::ColPageIter
+~ConfigIterator	common/config.h	/^  ~ConfigIterator(void) {$/;"	f	class:xgboost::common::ConfigIterator
+~ConsoleLogger	logging.cc	/^ConsoleLogger::~ConsoleLogger() {$/;"	f	class:xgboost::ConsoleLogger
+~Format	data/sparse_batch_page.h	/^  virtual ~Format() {}$/;"	f	class:xgboost::data::SparsePage::Format
+~SimpleCSRSource	data/simple_csr_source.h	/^  virtual ~SimpleCSRSource() {}$/;"	f	class:xgboost::data::SimpleCSRSource
+~SparsePageSource	data/sparse_page_source.cc	/^SparsePageSource::~SparsePageSource() {$/;"	f	class:xgboost::data::SparsePageSource
+~ThreadLocalStore	common/thread_local.h	/^  ~ThreadLocalStore() {$/;"	f	class:xgboost::common::ThreadLocalStore
+~TrackerLogger	logging.cc	/^TrackerLogger::~TrackerLogger() {$/;"	f	class:xgboost::TrackerLogger

@@ -371,7 +371,7 @@ class XGBClassifier(XGBModel, XGBClassifierBase):
         class_probs = self.booster().predict(test_dmatrix,
                                              output_margin=output_margin,
                                              ntree_limit=ntree_limit)
-        if self.objective == "multi:softprob":
+        if self.objective in ["multi:softprob", "rank:ndcg"]:
             return class_probs
         else:
             classone_probs = class_probs

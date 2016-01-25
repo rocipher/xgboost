@@ -185,7 +185,7 @@ class DMatrix(object):
     _feature_types = None
 
     def __init__(self, data, label=None, missing=0.0,
-                 weight=None, silent=False,
+                 weight=None, silent=False, group=None,
                  feature_names=None, feature_types=None):
         """
         Data matrix used in XGBoost.
@@ -240,6 +240,8 @@ class DMatrix(object):
             self.set_label(label)
         if weight is not None:
             self.set_weight(weight)
+        if group is not None:
+            self.set_group(group)
 
         self.feature_names = feature_names
         self.feature_types = feature_types
@@ -343,6 +345,7 @@ class DMatrix(object):
                                                c_str(field),
                                                c_array(ctypes.c_float, data),
                                                len(data)))
+
 
     def set_uint_info(self, field, data):
         """Set uint type property into the DMatrix.
